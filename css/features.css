@@ -1,0 +1,693 @@
+.lw-w100{
+	width: 100%;
+
+}
+.lw-overview-section{
+	
+	background: url(../image/l-welcometooverwatch-3.png) center top no-repeat;
+	background-size: cover;
+	
+}
+.lw-page-wrapper{
+	width: 1190px;
+	padding-top: 200px;
+	overflow: hidden;
+}
+/*视频*/
+ .lw-vid{
+	width: 540px;
+	height: 290px;
+  overflow: hidden;
+  border: 4px solid rgba(255,255,255,.5);
+  transition: all .3s;
+}
+ .lw-vid:hover{
+  border: 4px solid rgba(255,255,255);
+}
+.lw-vid:hover .lw-vid-bg{
+  background: url("../image/youtube-btn-wh.png") center center no-repeat;
+  background-size: 100%;
+}
+ .lw-vid > a{
+   display: block;
+   position: relative;
+   width:100%;
+}
+ .lw-vid > a img{
+  display: block;
+  width:100%;
+}
+.lw-vid .lw-vid-bg{
+  width:60px;
+  height:60px;
+  position: absolute;
+  top:50%;
+  margin-top: -30px;
+  left: 50%;
+  margin-left: -30px;
+  background: url("../image/youtube-btn-ylw.png") center center no-repeat;
+  background-size: 100%;
+}
+/*播放视频*/
+.lw-vid-keep{
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,.8);
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 99;
+  display: none;
+}
+.lw-vid-keep .lw-vid-play{
+  height:80%;
+  width:80%;
+  margin: 7% auto 0;
+
+}
+.lw-vid-keep .lw-vid-play video{
+  display: block;
+  width:100%;
+}
+
+
+
+
+.lw-page-wrapper .wel-fs{
+	width: 542px;
+	margin-bottom: 100px;
+}
+.lw-page-wrapper .wel-fs h2{
+	    font-style: italic;
+	font-size: 72px;
+	font-weight: 400;
+	color: #fff;
+}
+.lw-page-wrapper .wel-fs p{
+	color: #fff;
+	font-size: 28px;
+	line-height: 40px;
+}	
+
+.lw-u-font-shadow{
+	height: 626px;
+	
+	border-top: 6px solid #838084;
+	position: relative;
+}
+.lw-u-font-shadow:after{
+	background: url(../image/l-Fgame_teams_bg.jpg) center top no-repeat;
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: 100%;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.lw-u-font-shadow .shadow-le{	
+	left: 0;
+	background: url(../image/l-Fgame_teams_left.png) left top no-repeat;
+}
+
+.lw-u-font-shadow .shadow-fr{	
+	right: 0;
+	background: url(../image/l-2Fgame_teams_right.png) right top no-repeat;
+}
+.lw-u-font-shadow .shadow-cn{
+	position: absolute;
+	width: 60%;
+	top: -60px;
+	background-size: contain;
+	height: calc(100% + 60px);
+	z-index: 9;
+}
+.lw-container-pr{
+	position: relative;
+	height: 100%;
+}
+.lw-container-pr >img{
+	position: absolute;
+	display: block;
+	top: -40px;
+	left: 50%;
+	margin-left: -160px;
+	z-index: 9;
+	width: 320px;
+}
+.lw-container-pr >div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.lw-container-pr >div h3{
+	text-align: center;
+	font-size: 72px;
+	font-weight: 400;
+	color: #fff;
+	padding-top: 280px;
+}
+.lw-container-pr >div p{
+	text-align: center;
+	line-height: 32px;
+	font-size: 22px;
+	color: #fff;
+	width: 880px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.lw-container-pr >div a{
+	display: block;
+	width: 308px;
+	height: 50px;
+	background-color: #ff9c00;
+	line-height: 50px;
+	text-align: center;
+	font-size: 28px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0 auto;
+}
+/*扮演你的角色*/
+.lw-role-section{
+	background: url(../image/l-home-header-video-poster.jpg) center no-repeat;
+	background-size: cover;
+    border-top: 6px solid #838084;
+}
+.lw-role-section-cn{
+	padding-top: 80px;
+}
+.lw-role-section-cn >h3{
+	    font-style: italic;
+	font-size: 72px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.lw-role-section .con-au{
+	overflow: hidden;
+	max-width: 1150px;
+	margin: 0 auto 0;
+	
+    transform: skew(-.25rad) perspective(1px) translate3d(0,0,0); 
+}	
+.lw-role-section .con-au ul{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+
+}
+.lw-role-section .con-au li{
+	width: 25%;
+	float: left;
+	height: 595px;
+	position: relative;	
+}
+.lw-role-section .con-au li span{
+	display: block;
+	width: 150px;
+	height: 115px;
+	position: absolute;
+	bottom: 110px;
+	left: 50%;
+	margin-left: -75px;
+    transform: skew(0.25rad);
+}
+.lw-role-section .con-au li p{
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	font-size: 48px;
+	color: #fff;
+	transform: skew(0.25rad);
+	text-align: center;
+	width: 100%;
+    text-shadow: 1px 1px 6px rgba(238, 231, 239, 0.5);
+    padding-left: 20px;
+
+}
+.lw-role-section .con-au li:nth-child(1){
+	background: url(../image/lw-game01.jpg) center no-repeat;
+}
+.lw-role-section .con-au li:nth-child(1) span{
+	background: url(../image/l-icons-01.png) center no-repeat;
+	background-size: 100%;
+}
+.lw-role-section .con-au li:nth-child(2){
+	background: url(../image/lw-game02.jpg) center no-repeat;
+}
+.lw-role-section .con-au li:nth-child(2) span{
+	background: url(../image/l-icons-02.png) center no-repeat;
+	background-size: 100%;
+}
+.lw-role-section .con-au li:nth-child(3){
+	background: url(../image/lw-game03.jpg) center no-repeat;
+}
+.lw-role-section .con-au li:nth-child(3) span{
+	background: url(../image/l-icons-03.png) center no-repeat;
+	background-size: 100%;
+}
+.lw-role-section .con-au li:nth-child(4){
+	background: url(../image/lw-game04.jpg) center no-repeat;
+}
+.lw-role-section .con-au li:nth-child(4) span{
+	background: url(../image/l-icons-04.png) center no-repeat;
+	background-size: 100%;
+}
+.lw-role-descriptions{
+	/* max-width: 1700px; */
+	overflow: hidden;
+	margin-top: 30px;
+	padding-bottom: 70px;
+}
+.lw-role-descriptions p{
+	float: left;
+	width: 25%;
+	padding-right:  6%;
+	font-size: 16px;
+	line-height: 25px;
+	color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+}
+/* 地图 */
+.lw-game-maps-section{
+	width: 100%;
+	background-color: #1f2224;
+	border-top: 6px solid #838084;
+	padding-top: 80px;
+	overflow: hidden;
+}
+.lw-game-maps-section h2{
+	    font-style: italic;
+	text-align: center;
+	font-size: 72px;
+	color: #f0edf2;
+	font-weight: 400;
+}
+.lw-game-maps-section p{
+	margin: 30px auto 60px;
+	text-align: center;
+	width: 880px;
+	font-size: 22px;
+	color: #f0edf2;
+}
+/* 玩法 */
+.lw-map-types{
+	background-color: #314550;
+}
+.lw-map-types ul{
+	overflow: hidden;
+	padding: 20px 0;
+}
+.lw-map-types ul li{
+	width: 33.33%;
+	float: left;
+	height: 158px;
+	transition: all .5s;
+}
+.lw-map-types ul li h3{
+	font-size: 28px;
+	color: #f0edf2;
+	margin-left: 80px;
+	font-weight: 400;
+	padding-top: 20px;
+}
+.lw-map-types ul li p{
+	font-size: 16px;
+	color: #f0edf2;
+	line-height: 24px;
+	width: 275px;
+	margin-left: 80px;
+}
+.lw-map-types ul li:hover{
+    background-color: #476577;
+    cursor: pointer;
+}
+.lw-map-types .map-types-left{
+	margin-left: 21%;
+}
+/* 地图maps */
+.lw-maps{
+	background-color: #1f2224;
+	padding-top: 24px;
+    border-bottom: 6px solid #838084;
+    padding-bottom: 100px;
+}
+
+.lw-maps ul li{
+	float: left;
+	width: 30%;
+	box-sizing: border-box;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	position: relative;
+	margin-bottom: 60px;
+}
+.lw-maps ul li:nth-child(3n){
+	margin-right: 0;
+}
+.lw-maps ul li >img{
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.lw-maps ul li > div{
+	position: absolute;
+	bottom: 13%;
+	left: 0;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 6%;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 11;
+	
+}
+.lw-maps ul li > div span{font-size: 24px;color:#fff;line-height: 35px;}
+.lw-maps ul li > div img{
+	vertical-align: initial;
+	height: 17px;
+	margin-right: 5px;
+}
+.lw-maps ul li p{
+	font-size: 13px;
+	color: #fff;
+	padding-top: 10px;
+	overflow: hidden;
+}	
+.lw-maps ul li p span{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+.lw-maps .maps-bg{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	z-index: 9;
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,0)40%,rgba(0,0,0,.2))
+}
+
+/* 基础介绍 */
+.lw-content-box{
+	background-color: #000;
+	padding-top: 80px;
+	border-bottom: 6px solid #838084;
+}
+
+.lw-content-box .content-box-h{
+	width: 880px;
+	margin: 0 auto;
+}
+.lw-content-box .content-box-h h2{
+	   font-style: italic;
+	font-size: 72px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 11px;
+}
+.lw-content-box .content-box-h p{
+	text-align: center;
+	font-size: 22px;
+	line-height: 35px;
+	color: #fff;
+}
+/* 文字介盒子 */
+.lw-content-box-b{
+	width: 545px;
+	margin-bottom: 50px;
+}
+.lw-content-box-b h3{
+	font-size: 28px;
+	color: rgb(240, 237, 242);
+	font-weight: 400;
+	padding-bottom: 8px;
+}
+.lw-content-box-b p{
+	font-size: 16px;
+	line-height: 25px;
+	color: #fff;
+	margin-bottom: 16px;
+}
+/* 比赛开始 */
+.lw-game-start{
+	border-bottom: 6px solid #838084;
+	width: 100%;
+	background: url('../image/bg-howtoplay.jpg') center center no-repeat;
+	background-size: cover;
+	height: 1449px;
+}
+.lw-game-start >h3 {
+	    font-style: italic;
+	text-align: center;
+	font-size: 72px;
+	color: rgb(240, 237, 242);
+	padding: 80px 0 60px;
+	font-weight: 400;
+}
+.lw-game-start .side-tips-section{
+	width: 542px;
+	box-sizing: border-box;
+	background-color: rgba(40,53,79,.9);
+	padding: 22px;
+}
+.lw-game-start .side-tips-section h3{
+	font-size: 18px;
+	color: #f0edf2;
+	font-weight: 400;
+}
+.lw-game-start .side-tips-section p{
+	color: rgb(157, 170, 200);
+	font-size: 16px;
+	line-height: 25px;
+	padding-bottom: 8px;
+}
+.lw-game-start .side-tips-section .lw-m-t{
+	margin-top: 36px;
+}
+/* 获取奖励 */
+
+.lw-font-referral{
+	width: 100%;
+	overflow: hidden;
+}
+.lw-font-referral h3{
+	    font-style: italic;
+	text-align: center;
+    font-size: 72px;
+    color: rgb(240, 237, 242);
+    font-weight: 400;
+}
+.lw-font-referral p{
+	text-align: center;
+	width: 880px;
+	margin: 0 auto;
+	font-size: 22px;
+	line-height: 35px;
+	color: rgb(240, 237, 242);
+}
+/* 获取奖励 */
+.lw-reward{
+	width: 100%;
+	background-color: #000;
+	padding-top: 80px;
+    border-bottom: 6px solid #838084;
+}
+.lw-reward-bg{
+	width: 100%;
+	background: url('../image/bg-progression.png') center center no-repeat;
+	background-size: cover;
+	min-height:750px; 
+	position: relative;
+	top: -120px;
+	margin-bottom: -120px;
+}
+.lw-reward .lw-reward-cn{
+	width: 640px;
+}
+.lw-reward-fl{
+	width: 245px;
+	margin-left: 40px;
+}
+.lw-reward-t{
+	width: 477px;
+	margin-right: 30px;
+}
+.lw-reward-t img{
+	margin-left: -50px;
+	margin-top: -100px;
+	display: block;
+	width: 100%;
+}
+/* 游戏模式 */
+.lw-game-modes{
+	width: 100%;
+	padding-bottom: 100px;
+	background: url('../image/bg-gameModes.jpg') center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+    border-bottom: 6px solid #838084;
+}
+.lw-game-modes>div{
+	margin-top: 80px;
+}
+.lw-game-mode-cn{
+	width: 860px;
+	
+	margin: 66px auto 0;
+}
+.lw-game-mode-cn li{
+	width: 248px;
+	float: left;
+	margin-right: 58px;
+	background: #fff;
+	height: 400px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.lw-game-mode-cn li:nth-child(3n){
+	margin-right: 0;
+}
+.lw-game-mode-cn .lw-game-big{
+	display: block;
+	width: 100%;
+}
+.lw-game-mode-cn .li-game-sml{
+	width: 36px;
+	display: block;
+	margin:  10px auto 1px;
+}
+.lw-game-mode-cn h4{
+	text-align: center;
+	font-weight: 400;
+	font-size: 32px;
+	font-style: italic;
+	color: rgb(46, 60, 81);
+}
+.lw-game-mode-cn p{
+	padding: 0 10px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 20px;
+	color: rgb(159, 159, 159);
+
+}
+.lw-game-mode-cn .lw-game-a{
+	display: block;
+	width: 228px;height: 28px;
+	background-color: #ff9c00;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(51, 51, 51);
+	line-height: 28px;
+	font-weight: 700;
+	border-radius: 3px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -114px;
+}
+.lw-game-mode-cn .lw-game-a:hover{
+	background-color: #ffb033;
+}
+/* 与友同乐 */
+.lw-friends{
+	background-color: #2d374f;
+	    border-bottom: 6px solid #838084;
+}
+.lw-friends .lw-friends-xin{
+	width: 1200px;
+	margin: 0 auto;
+}
+.lw-friends-img{
+	position: relative;
+	top: -70px;
+	width: 35%;
+	float: left;
+	margin-bottom: -100px;
+}
+.lw-friends-img img{
+	display: block;
+	width: 100%;
+}
+.lw-friends-cn{
+	float: left;
+	width: 660px;
+	margin-top: 38px;
+	margin-left: 38px;
+
+}
+.lw-friends-cn h3{
+	font-size: 48px;
+	color: rgb(240, 237, 242);
+	font-weight: 400;
+    font-style: italic;
+}
+.lw-friends-cn p {
+	font-size: 16px;
+	line-height: 25px;
+	color: rgb(157, 170, 200);
+	margin-bottom: 16px;
+}
+/* 侧栏 */
+.lw-sub-nav-menu{
+	width: 112px;
+	position: fixed;
+	top: 50%;
+	margin-top: -144px;
+	z-index: 9;
+  right: 0px;
+}
+.lw-sub-nav-menu li{
+  position: relative;
+	width: 112px;
+	overflow: hidden;
+	height: 36px;
+	line-height: 36px;
+	left: 76px;
+  background-color: #3c4860;
+  margin-bottom: 1px;
+  border-radius: 4px;
+}
+.lw-sub-nav-menu li:hover{background-color: #00c3ff;}
+.lw-sub-nav-menu i{
+	width: 36px;
+	line-height: 36px;
+	float: left;
+
+}
+.lw-sub-nav-menu span{
+	width: 76px;
+	line-height: 36px;
+	float: left;
+  font-size: 12px;
+  color: rgb(240, 237, 242);
+  text-align: center;
+}
+
+.sub-nav-icon{
+  display: inline-block;
+  padding: .5rem;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  font-size: 3.6rem;
+  background-color: rgba(0,0,0,.2);
+  background-position: 0 -1em;
+  border-radius: .3rem 0 0 .3rem;
+  background-size: 1em 2em;
+  fill: #f0edf2;
+  opacity: .8;
+}
+.lw-sub-nav-menu-i{
+  background-color: #00c3ff;
+}
+
+

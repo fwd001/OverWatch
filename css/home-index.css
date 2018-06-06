@@ -1,0 +1,667 @@
+/* 首页视频 */
+
+.startVideo {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* display: none; */
+}
+
+.startVideo video {
+  width: auto;
+  height: 87%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+/* 彩蛋游戏地图开始 */
+
+.gameMask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.53);
+  display: none;
+}
+
+.gameMask .map {
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%) rotate(0);
+  overflow: hidden;
+  background: #eee url(../image/map1.png);
+  background-size: 2.5%;
+  border-radius: 5px;
+  display: none;
+}
+
+.gameMask .juhua {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translateY(-50%) translateX(-50%);   */
+  margin-left: -100px;
+  margin-top: -100px;
+  background: url(../image/juhua.png) no-repeat;
+  background-size: cover;
+  /* transition: transform .5s linear; */
+}
+
+#spotlight-image .button {
+  position: absolute;
+  top: 175px;
+  left: 77px;
+  display: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+
+/* 首页头部背景样式开始 */
+
+.home-header {
+  position: relative;
+}
+
+.home-header .home-header-video>video {
+  min-width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+
+/* 头部遮罩 */
+
+.home-header .home-header-mask {
+  position: absolute;
+  z-index: 1;
+  top: 157px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.home-header .home-header-mask a {
+  display: block;
+  width: 162px;
+  height: 35px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 2px;
+  font-size: 1.6em;
+  font-weight: 700;
+  box-sizing: border-box;
+  transition: all .2s;
+}
+
+.home-header .home-header-mask a:first-child {
+  background-color: #ff9c00;
+  color: #333;
+}
+
+.home-header .home-header-mask a:first-child:hover {
+  background-color: #ffb033;
+}
+
+.home-header .home-header-mask a:last-child {
+  color: #fff;
+  border: 1px solid #fff;
+  margin-top: 18px;
+  height: 34px;
+}
+
+.home-header .home-header-mask a:last-child:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.home-header .home-header-mask a:last-child:hover span {
+  background-position: 0 -50px;
+}
+
+.home-header .home-header-mask a:last-child span {
+  display: inline-block;
+  width: 17px;
+  height: 20px;
+  background: url(../image/fwd-assets-img-announcement-arraw.png) no-repeat;
+  position: relative;
+  top: 4px;
+}
+
+.home-header .home-header-bottom-cotainer {
+  position: absolute;
+  /* z-index: 1; */
+  bottom: 0;
+  width: 100%;
+  padding: 0 24px 18px;
+  box-sizing: border-box;
+}
+
+
+/* 首页头部背景样式结束 */
+
+
+/* 新闻公告开始 */
+
+.new-planels {
+  margin-bottom: 70px;
+}
+
+.new-planels .new-planels-inner {
+  text-align: center;
+}
+
+.new-planels .h5 {
+  font-size: 2.8em;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  color: #405275;
+  margin: 30px 0;
+}
+
+.new-planels .new-planels-inner>div {
+  display: inline-block;
+}
+
+.new-planels .new-planels-inner .news {
+  border-radius: 3px;
+  overflow: hidden;
+  text-align: left;
+  background-color: rgba(255, 255, 255, .25);
+  padding: 3px;
+  margin: 0px 10px;
+  box-sizing: border-box;
+  transition: all 200ms;
+}
+
+.new-planels .new-planels-inner .news:hover {
+  background-color: #fff;
+}
+
+.new-planels .new-planels-inner .news-box {
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.new-planels .new-planels-inner .news-box a {
+  display: block;
+}
+
+.new-planels .new-planels-inner .content {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .75);
+  box-sizing: border-box;
+  padding: 15px 20px;
+}
+
+.new-planels .new-planels-inner .content a {
+  color: #f0edf2;
+  font-style: italic;
+  font-size: 1.8em;
+}
+
+
+/* 查看更多新闻 */
+
+.new-planels .news-btn {
+  margin-top: 25px;
+  color: #00a5e2;
+  border: 3px solid #00a5e2;
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 2.8em;
+  padding: 0px 65px;
+  font-weight: 700;
+  display: inline-block;
+  transition: all 200ms;
+}
+
+.new-planels .news-btn:hover {
+  color: #fff;
+  background-color: #00a5e2;
+}
+
+
+/* 新闻公告结束 */
+
+
+/* fight section 开始 */
+
+.fight-section {
+  height: 945px;
+  position: relative;
+  margin-bottom: 1px;
+}
+
+.fight-section .bg-fftf {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fight-section .bg-cairo {
+  background: url(../image/fwd-cairo-desktop-1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.fight-section .bg-volskaya {
+  background: url(../image/fwd-volskaya-2560-2.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.fight-section .bg-london {
+  background: url(../image/fwd-fight-for-the-future2560-1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+/* fight说明 */
+
+.fight-desc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 80px 30px 95px;
+  box-sizing: border-box;
+}
+
+.fight-desc p {
+  color: #f0edf2;
+  font-size: 2.8em;
+  margin-bottom: 54px;
+}
+
+.fight-desc h2 {
+  text-shadow: 0 4px 5px rgba(60, 72, 96, .5);
+  font-size: 7.2em;
+  font-weight: 400;
+  color: #f0edf2;
+  font-style: italic;
+  margin-bottom: 44px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 3.2em;
+  font-weight: 700;
+  padding: 6px 30px 13px;
+  color: #fefefe;
+  line-height: 1;
+  background-color: #ff9c00;
+  border: 3px solid #ff9c00;
+  letter-spacing: .025em;
+  vertical-align: middle;
+  transition: all .2s;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-top: 18px;
+}
+
+.button:hover {
+  background-color: #ffb033;
+  border: 3px solid #ffb033;
+}
+
+
+/* fight section 结束 */
+
+
+/* 英雄区域开始 */
+
+.heroes-section {
+  padding: 80px 0;
+  text-align: center;
+  background: url(../image/fwd-home-candy.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.heroes-section>div {
+  padding: 26.4px;
+}
+
+
+/* 英雄中间区域 */
+
+.heroes-section .heroes-center {
+  position: relative;
+  color: #f0edf2;
+}
+
+.heroes-section .heroes-center .heroes-desc {
+  padding: 10px 98.6px 15px;
+  min-height: 200px;
+  background-image: linear-gradient(90deg, rgba(42, 55, 81, 0.5)0, rgba(42, 55, 81, .8)13%, rgba(42, 55, 81, .8)87%, rgba(42, 55, 81, 0.5));
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  background-position: 50%;
+  text-align: right;
+  top: calc(50% - 100px);
+  z-index: 1;
+}
+
+.heroes-section .heroes-center .heroes-desc h2 {
+  padding-left: 64%;
+  font-size: 7.2em;
+  text-shadow: 0 1px 2px #000;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.heroes-section .heroes-center .heroes-desc p {
+  padding-left: 64%;
+  margin-top: 0.5em;
+  line-height: 1.6;
+  font-size: 1.6em;
+  min-height: 48px;
+}
+
+.heroes-section .heroes-center .heroes-image {
+  width: 100%;
+  /* height: 746px; */
+  box-sizing: border-box;
+  padding: 0 30px;
+  max-width: 1250px;
+  margin: 0 auto;
+  top: 0;
+  z-index: 1;
+}
+
+.heroes-section .heroes-center .heroes-image::before {
+  content: '';
+  position: absolute;
+  top: 59%;
+  left: 0;
+  right: 0;
+  padding-top: 28.07%;
+  background-image: url(../image/fwd-home-glow.png);
+  background-size: cover;
+}
+
+.heroes-section .heroes-center .spotlight-image {
+  position: relative;
+  left: -270px;
+  display: inline-block;
+  min-width: 746px;
+  min-height: 440px;
+  margin: 0 auto;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  z-index: 1;
+  transition: background-image .2s;
+}
+
+
+/* 英雄尾部区域 */
+
+.heroes-section .heroes-bottom {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.heroes-section .heroes-bottom ul li {
+  display: inline-block;
+}
+
+
+/* 鼠标点击英雄效果开始 */
+
+.heroes-section .heroes-bottom ul li .hero-portrait-image-mask.current {
+  transform: scale(1.15) skew(25rad);
+  border-left-width: 3px;
+  border-right-width: 3px;
+  background-color: rgb(248, 146, 29);
+  margin: 2.4px 3px;
+  transition: transform .1s linear;
+}
+
+.heroes-section .heroes-bottom ul li span.current {
+  position: relative;
+  top: -8.4px;
+  border-radius: .3em;
+  background-color: #f0edf2;
+  color: #333;
+}
+
+
+/* 鼠标点击英雄效果结束 */
+
+.heroes-section .heroes-bottom ul li a {
+  display: block;
+  padding-bottom: 24px;
+}
+
+.heroes-section .heroes-bottom ul li a .hero-portrait-image-mask {
+  margin: 2.4px 6px;
+  border: 3px solid #f0edf2;
+  border-left-width: 0;
+  border-right-width: 0;
+  overflow: hidden;
+  transform: scale(.95) skew(25rad);
+  border-radius: 7px;
+  background-color: rgba(51, 51, 51, .9);
+  width: 70px;
+  height: 84px;
+}
+
+.heroes-section .heroes-bottom ul li a .hero-portrait-image-mask div {
+  transform: skew(-25rad);
+  background-repeat: no-repeat;
+  width: calc(100% + 10px);
+  height: 100%;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+  box-sizing: border-box;
+  position: relative;
+  left: -6px;
+}
+
+.heroes-section .heroes-bottom ul li a span {
+  position: relative;
+  display: inline-block;
+  top: -4.2px;
+  margin-left: -10px;
+  padding: 1px 10px;
+  font-size: 1.3em;
+  color: #333;
+}
+
+
+/* 英雄区域结束 */
+
+
+/* 首页透明区域开始 */
+
+.bg-show-for-story {
+  background-attachment: fixed;
+  min-height: 402px;
+  background-position: center 16%;
+  background-image: url(../image/fwd-home-dorado-desktop.jpg);
+  margin-bottom: 1px;
+  transition: background-image .7s ease-out;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg-show-for-story #story-desc {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  transform: translateY(-50%);
+  text-shadow: 0 0px 5px rgba(60, 72, 96, .5);
+  font-size: 2.8em;
+  color: #405275;
+  width: 500px;
+  transition: .7s linear;
+}
+
+.bg-show-for-story .memberbox {
+  height: 400px;
+  text-align: center;
+}
+
+.bg-show-for-story .member {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border: 3px solid #f25d8e;
+  border-radius: 50%;
+  margin: 0 23px;
+  opacity: 0;
+  top: 230px;
+}
+
+.bg-show-for-story .member:nth-child(1) {
+  background: url(../image/members/WechatIMG13.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bg-show-for-story .member:nth-child(2) {
+  background: url(../image/members/WechatIMG5.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bg-show-for-story .member:nth-child(3) {
+  background: url(../image/members/WechatIMG2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bg-show-for-story .member:nth-child(4) {
+  background: url(../image/members/WechatIMG4.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bg-show-for-story .member:nth-child(5) {
+  background: url(../image/members/WechatIMG1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bg-show-for-story .member:nth-child(6) {
+  background: url(../image/members/WechatIMG3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bg-show-for-story .member span {
+  position: absolute;
+  left: 50%;
+  bottom: -10%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  font-weight: 400;
+  width: auto;
+  color: #f25d8e;
+  background-color: #ccc;
+  border: 1px solid #f25d8e;
+  border-radius: 5px;
+}
+
+.bg-show-for-story .member img {
+  position: absolute;
+  top: -16px;
+  left: 23%;
+  transform: translateX(-50%) rotate(-28deg);
+  display: none;
+}
+
+.bg-show-for-story .memberbox .last-logo {
+  width: 320px;
+  height: 197px;
+  background: url(../image/fwd-logo-overwatch-full.png) no-repeat;
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+  background-size: cover;
+  display: none;
+}
+
+.bg-show-for-story .dogGif {
+  position: absolute;
+  top: 177px;
+  left: 50%;
+  transform: translateX(307px);
+  display: none;
+}
+
+
+/* 首页透明区域结束 */
+
+
+/* 宣传开始 */
+
+.publicity-section {
+  padding: 80px 0;
+  background: url(../image/fwd-img-museum.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.publicity-section .publicity-page {
+  color: #405275;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.publicity-section .publicity-page .publicity-box {
+  margin-left: 50%;
+  width: 41.66667%;
+  padding: 0 2.2em;
+  box-sizing: border-box;
+  margin-bottom: 150px;
+}
+
+.publicity-section .publicity-page .publicity-box h2 {
+  margin: 0;
+}
+
+.publicity-section .publicity-page .publicity-box p {
+  margin-top: .5em;
+  margin-bottom: 3.6rem;
+  line-height: 1.47;
+  font-size: 2.8em;
+  padding: 0;
+}
+
+.publicity-section .publicity-page .publicity-box a {
+  margin: 0;
+}
+
+
+/* 英雄图 */
+
+.publicity-section .publicity-left {
+  width: 50%;
+  height: 118%;
+  background: url(../image/fwd-home-widowmaker-default.png) no-repeat center top;
+  background-size: 100% auto;
+  position: absolute;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/* 宣传结束 */

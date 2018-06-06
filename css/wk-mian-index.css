@@ -1,0 +1,654 @@
+@charset "UTF-8";
+/*主体图片区域开始*/
+.flex {
+  width: 100%;
+  height: 594px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+  background-image: url(../image/wk-Fheader-bg.jpg);
+  background-position: center 30px;
+  background-size: 100% auto;
+}
+
+.flex .flex-content {
+  height: 484px;
+  margin-top: 110px;
+}
+
+/*主体图片区域内logo区域开始*/
+.flex .flex-content .logo {
+  width: 427px;
+  height: 305px;
+  position: relative;
+  left: 9%;
+  margin-top: 90px;
+  z-index: 50;
+}
+
+.flex .flex-content .logo img {
+  width: 80%;
+  margin-left: 34px;
+}
+
+.flex .flex-content .logo h2 {
+  font-size: 54px;
+  color: #fffdef;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.flex .flex-content .logo a {
+  display: inline-block;
+  width: 148px;
+  height: 45px;
+  margin-top: 20px;
+  background-color: #ff9c00;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  left: 213px;
+  margin-left: -74px;
+  border-radius: 5px;
+}
+
+.flex .flex-content .logo a:hover {
+  background-color: #ffc466;
+}
+
+/*主体图片区域内logo区域结束*/
+/*主体图片区域内characters区域开始*/
+.flex .flex-content .characters {
+  width: 854px;
+  height: 484px;
+  position: fixed;
+  left: 470px;
+}
+
+.flex .flex-content .characters img {
+  width: 100%;
+  position: relative;
+  left: -125px;
+}
+
+/*主体图片区域内characters区域结束*/
+.flex-content .play-button {
+  width: 95px;
+  position: absolute;
+  left: 630px;
+  top: 248px;
+  cursor: pointer;
+}
+/*主体图片区域点击弹出部分开始*/
+.flex-pop-up {
+  height: 97%;
+  width: 80%;
+  color: #405275;
+  background-color: #000;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 135px;
+  z-index: 9999;
+  display: none;
+}
+.flex-pop-up .title {
+  padding-bottom: 10px;
+  padding-top: 5px;
+  height:15%;
+  border-bottom: 1px solid rgba(0,195,255,.1);
+}
+.flex-pop-up .title h2 {
+  font-weight: 200;
+  font-size: 34px;
+}
+.flex-pop-up .title .close{
+  width: 36px;
+  height: 36px;
+  background-image: url(../image/wk-FexitOOEf.png);
+  position: absolute;
+  left: 1043px;
+  top: 0;
+}
+
+.flex-pop-up .pop-up-video {
+  height: 85%;
+  background: rgba(3,12,21,.98)
+}
+.flex-pop-up .pop-up-video .video {
+  height: 100%;
+  width:100%;
+}
+/*主体图片区域点击弹出部分结束*/
+/*主体图片区域结束*/
+/*行动档案区域开始*/
+.bigBox {
+  background-image: url(../image/wk-retribution-info-huge.png);
+  background-position: 50%;
+  position: relative;
+  z-index: 25;
+}
+
+.action {
+  height: 578px;
+  position: relative;
+}
+
+.action .action-top {
+  width: 640px;
+  position: relative;
+  left: 625px;
+  top: 80px;
+  margin-left: -320px;
+  text-align: center;
+}
+
+.action .action-top span {
+  font-size: 25px;
+  color: #ff9c00;
+  padding-top: 10px;
+  display: block;
+}
+
+.action .action-top p {
+  color: #ffffff;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+.action .message {
+  display: inline-block;
+  width: 103px;
+  height: 34px;
+  background-color: #ff9c00;
+  font-size: 16px;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  left: 625px;
+  top: 100px;
+  margin-left: -52px;
+  border-radius: 5px;
+}
+
+.action .message:hover {
+  background-color: #ffb033;
+}
+
+.action-button {
+  height: 58px;
+  background-image: url(../image/wk-divider-desktop.jpg);
+}
+
+/*行动档案区域结束*/
+/*更多信息区域开始*/
+.moreInformation {
+  position: relative;
+  z-index: 25;
+  height: 2192px;
+  overflow: hidden;
+  display: none;
+}
+
+.moreInformation .VeniceAction {
+  height: 787px;
+  color: #f0edf2;
+  background-image: url(../image/wk-retribution-game-mode.jpg);
+  background-position: center;
+  position: relative;
+  z-index: 3;
+}
+
+.moreInformation .VeniceAction .VeniceAction-content {
+  width: 495px;
+  position: absolute;
+  left: 100%;
+  top: 200px;
+  text-align: center;
+  opacity: 0;
+}
+
+.moreInformation .VeniceAction .VeniceAction-content h2 {
+  text-shadow: 1px 1px 3px rgba(60, 72, 96, .5);
+  font-size: 50px;
+  font-style: italic;
+}
+
+.moreInformation .VeniceAction .VeniceAction-content p {
+  margin-top: 10px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.kingAction {
+  height: 787px;
+  background-color: red;
+  color: #f0edf2;
+  background-image: url(../image/wk-uprising-game-mode.jpg);
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+
+.kingAction .kingAction-content {
+  width: 495px;
+  text-align: center;
+  position: absolute;
+  top: -242px;
+  left: 80px;
+  opacity: 0;
+}
+
+.kingAction .kingAction-content h2 {
+  text-shadow: 1px 1px 3px rgba(60, 72, 96, .5);
+  font-size: 50px;
+  font-style: italic;
+}
+
+.kingAction .kingAction-content p {
+  margin-top: 10px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.moreInformation-more {
+  height: 58px;
+  background-image: url(../image/wk-Fdivider-desktop.jpg);
+  background-position: center;
+}
+
+.accordion {
+  width: 100%;
+  height: 560px;
+  position: relative;
+  z-index: 20;
+}
+
+/*.accordion .accordion-content {*/
+/*background-color: red;*/
+/*position:relative;*/
+/*color: #ffffff;*/
+/*}*/
+/*.accordion .accordion-content h2 {*/
+/*font-size: 50px;*/
+/*font-weight: 700;*/
+/*font-style: italic;*/
+/*}*/
+.accordion .accordion-left {
+  width: 1107px;
+  height: 560px;
+  background-color: lime;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../image/wk-kings-row-map.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.accordion .accordion-left .mask {
+  width: 100%;
+  height: 560px;
+  background-color:rgba(0,0,0,0.5);
+  display: none;
+}
+.accordion .accordion-right .mask {
+  width: 100%;
+  height: 560px;
+  background-color:rgba(0,0,0,0.5);
+}
+.accordion .line {
+  width: 3px;
+  height: 560px;
+  background-color: black;
+  position: absolute;
+  left: 1080px;
+  top: 0;
+}
+
+.accordion .line img {
+  position: absolute;
+  z-index: 3;
+  left: -20px;
+  top: 280px;
+}
+
+.accordion .accordion-right {
+  width: 1107px;
+  height: 560px;
+  background-color: blue;
+  position: absolute;
+  left: 1083px;
+  top: 0;
+  background-image: url(../image/wk-archivesFvenice-map.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.accordion .accordion-left .accordion-content {
+  color: #ffffff;
+  position: absolute;
+  left: 92px;
+  top: 425px;
+  font-size: 16px;
+  opacity: 1;
+}
+.accordion .accordion-right .accordion-content {
+  color: #ffffff;
+  position: absolute;
+  left: 92px;
+  top: 425px;
+  font-size: 18px;
+  opacity: 0;
+}
+.accordion .accordion-content h2 {
+  font-size: 50px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*更多信息区域结束*/
+.unlocks {
+  overflow: hidden;
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 25;
+  background-image: url(../image/wk-Funlocks-background-desktop.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+/*皮肤区域开始*/
+.common {
+  text-align: center;
+  width: 1178px;
+  margin: 80px auto 0;
+}
+
+.common h2 {
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 400;
+  color: #fffeff;
+  margin-bottom: 10px;
+}
+
+.common ul li {
+  width: 285px;
+  height: 163px;
+  float: left;
+  margin-bottom: 4px;
+  border: 3px solid hsla(0, 0%, 100%, .5);
+  border-radius: 3px;
+}
+
+.common ul .mr-4 {
+  margin-right: 4px;
+}
+
+.common ul li a {
+  display: block;
+  height: 163px;
+  position: relative;
+  background-size: 285px 163px;
+}
+.derma {
+  height: 941px;
+}
+.derma ul {
+  display: none;
+}
+.derma ul li a div {
+  height: 163px;
+  display: none;
+}
+
+.derma ul li a div img {
+  margin-top: 54px;
+}
+
+.common ul li:hover {
+  border: 3px solid #ffffff;
+  cursor: pointer;
+}
+
+.derma ul li:hover div {
+  display: block;
+}
+
+.common ul li a span {
+  border: 2px solid #e79b2a;
+  padding: 2px;
+  color: #ffe30b;
+  position: absolute;
+  left: 247px;
+  top: 5px;
+  background-color: #000;
+}
+
+.common ul li a p {
+  width: 285px;
+  background-color: rgba(3, 20, 26, .75);
+  position: absolute;
+  top: 122px;
+  line-height: 41px;
+  font-size: 16px;
+  color: #ff9c00;
+}
+
+/*皮肤区域结束*/
+/*特写区域开始*/
+.feature {
+  height: 422px;
+}
+.feature ul {
+  display: none;
+}
+.feature ul li a {
+  background-size: 285px 163px;
+}
+
+.feature ul li a div {
+  height: 163px;
+  overflow: hidden;
+}
+
+.feature ul li a div img {
+  width: 55px;
+  margin-top: 54px;
+}
+
+.feature ul li a div .wh {
+  display: none;
+}
+
+.feature ul li:hover div .ylw {
+  display: none;
+}
+
+.feature ul li:hover div .wh {
+  display: block;
+  margin-left: 115px;
+}
+
+/*特写区域结束*/
+/*表情区域开始*/
+.expression {
+  height: 249px;
+}
+.expression ul {
+  display: none;
+}
+.expression ul li a {
+  background-size: 285px 163px;
+}
+
+.expression ul li a div {
+  height: 163px;
+  overflow: hidden;
+}
+
+.expression ul li a div img {
+  width: 55px;
+  margin-top: 54px;
+}
+
+.expression ul li a div .wh {
+  display: none;
+}
+
+.expression ul li:hover div .ylw {
+  display: none;
+}
+
+.expression ul li:hover div .wh {
+  display: block;
+  margin-left: 115px;
+}
+
+/*表情区域结束*/
+/*unlocks区域点击弹出部分开始*/
+.unlocks-pop-up {
+  height: 97%;
+  width: 80%;
+  color: #405275;
+  background-color: #000;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 135px;
+  z-index: 9999;
+  display: none;
+}
+.unlocks-pop-up .title {
+  padding-bottom: 3px;
+  padding-top: 5px;
+  height:15%;
+  border-bottom: 1px solid rgba(0,195,255,.1);
+}
+.unlocks-pop-up .title h2 {
+  font-weight: 200;
+  font-size: 34px;
+}
+.unlocks-pop-up .title span {
+  color: #00c3ff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  line-height: 1.4;
+  display: block;
+  margin-top: 3px;
+}
+.unlocks-pop-up .title .close{
+  width: 36px;
+  height: 36px;
+  background-image: url(../image/wk-FexitOOEf.png);
+  position: absolute;
+  left: 1043px;
+  top: 0;
+}
+
+.unlocks-pop-up .pop-up-img {
+  height: 85%;
+  background: rgba(3,12,21,.98);
+  position: relative;
+}
+.unlocks-pop-up .pop-up-img ul li:first-child {
+display: block;
+}
+.unlocks-pop-up .pop-up-img ul li {
+  position: absolute;
+  display: none;
+}
+.unlocks-pop-up img {
+  height: 100%;
+  width:100%;
+}
+.unlocks-pop-up .pop-up-img .toLeft {
+  width: 64px;
+  height: 69px;
+  background-image: url(../image/wk-FdetailFarrow-leftHQ0H.png);
+  position: absolute;
+  left: 0;
+  top: 210px;
+}
+.unlocks-pop-up .pop-up-img .toRight {
+  width: 64px;
+  height: 69px;
+  background-image: url(../image/wk-FdetailFarrow-righthVyK.png);
+  position: absolute;
+  left: 100%;
+  top: 210px;
+  margin-left: -64px;
+}
+/*unlocks区域点击弹出部分开始*/
+/*回顾过去区域开始*/
+.formerly {
+  height: 514px;
+  background-color: indianred;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+
+.formerly .formerly-content {
+  height: 514px;
+}
+.formerly .formerly-content .video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2560px;
+}
+.formerly .formerly-content .formerly-text {
+  width: 595px;
+  line-height: 1.6;
+  color: #ffffff;
+  position: relative;
+  left: 670px;
+  top: 110px;
+}
+
+.formerly .formerly-content .formerly-text h2 {
+  font-size: 53px;
+  font-style: italic;
+}
+
+.formerly .formerly-content .formerly-text p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.formerly .formerly-content .formerly-text a {
+  display: inline-block;
+  width: 148px;
+  background-color: #ff9c00;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 15px;
+  position: relative;
+  left: 297px;
+  margin-left: -74px;
+}
+
+.formerly .formerly-content .formerly-text a:hover {
+  background-color: #ffb033;
+}
+
+/*回顾过去区域结束*/

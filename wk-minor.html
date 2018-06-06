@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="fonts/iconfont.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/wk-minor-index.css">
+  <link rel="icon" href="overwatch.ico" type="image/x-icon">
+  <title>欢度新春--《守望先锋》官方网站</title>
+</head>
+
+<body>
+<!-- 头部 导航栏 开始-->
+<header>
+  <!-- 头导航 -->
+  <div class="navbar clearfix">
+    <ul class="nav-l fl">
+      <li>
+        <h2>暴雪</h2>
+      </li>
+      <li id='gamesBtn'>
+        <a href="javascript:">游戏
+          <i class="iconfont icon-arrow-down"></i>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:">商城 </a>
+      </li>
+      <li>
+        <a href="javascript:">新闻 </a>
+      </li>
+      <li>
+        <a href="javascript:">电子游戏
+          <i class="iconfont icon-arrow-down"></i>
+        </a>
+      </li>
+    </ul>
+    <ul class="nav-r fr">
+      <li>
+        <a href="javascript:">支持 </a>
+      </li>
+      <li>
+        <a href="javascript:">你的通行证
+          <i class="iconfont icon-arrow-down"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- 隐藏部分游戏分类 -->
+  <div class="Navbar-modalContent" id="Navbar-modalContent">
+    <div class="container">
+      <a href="javascript:" id="firstGame"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+      <a href="javascript:"></a>
+    </div>
+  </div>
+  <!-- 小导航 -->
+  <div class="navbars">
+    <div class="navbaars-main clearfix">
+      <ul class="fl">
+        <li>
+          <h1>
+            <a href="fwd-home-index.html">守望先锋</a>
+          </h1>
+        </li>
+        <li>
+          <a href="javascript:" id="smallGameBtn">游戏
+            <img src="image/fwd-caret-gray.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="fwd-heroes-index.html">英雄</a>
+        </li>
+        <li>
+          <a class="navbars-bg"  href="javascript:" id="smallActivityBtn">活动
+            <img src="image/fwd-caret-gray.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="yxw-index.html">视频图片</a>
+        </li>
+        <li>
+          <a href="yxw-cy-index.html">新闻</a>
+        </li>
+        <li>
+          <a href="lh-index.html">下载</a>
+        </li>
+        <li>
+          <a href="lh-ciindex.html">生涯数据</a>
+        </li>
+        <li>
+          <a href="swj-major-index.html">电子竞技</a>
+        </li>
+        <li>
+          <a href="javascript:">论坛</a>
+        </li>
+      </ul>
+      <div class="buy">
+        <a href="swj-minor-index.html">购买</a>
+      </div>
+      <div class="nav-border"></div>
+      <div class="hideCover">
+        <a href="lw-features.html">概述</a>
+        <a href="javascript:;">补丁</a>
+      </div>
+      <div class="hideCover">
+        <a href="wk-index.html">行动档案</a>
+        <a href="wk-minor.html">欢度新春</a>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</header>
+<!-- 头部 导航栏 结束-->
+
+<!-- 主体图片区域开始 -->
+<section class="flex">
+  <div class="flex-content">
+    <!--主体图片区域内logo区域开始-->
+    <div class="logo fl">
+      <img src="image/wk-minor-event-logo.png" alt="">
+      <h2>2月9日-3月6日</h2>
+      <a href="swj-minor-index.html"><span>购买补给</span></a>
+    </div>
+    <!--主体图片区域内logo区域结束-->
+
+    <!--主体图片区域内characters区域开始-->
+    <div class="characters fl">
+      <img src="image/wk-minor-characters.png" alt="">
+    </div>
+    <!--主体图片区域内characters区域结束-->
+    <img src="image/play-button.png" alt="" class="play-button">
+  </div>
+
+</section>
+<!--主体图片区域点击弹出部分开始-->
+<div class="flex-pop-up">
+  <div class="title">
+    <h2>《守望先锋》:威尼斯行动</h2>
+    <div class="close"></div>
+  </div>
+  <div class="pop-up-video">
+    <video src="video/wk-FHDFYSqlT-mobile.mp4" class="video" preload="auto" loop muted ></video>
+  </div>
+</div>
+<!--主体图片区域点击弹出部分结束-->
+<!-- 主体图片区域结束 -->
+
+<!--整体遮罩区域开始-->
+<div class="allMask" style="width: 100%; height: 100%; opacity: 0.8; display: none;position: fixed;z-index:555;background-color: rgba(0,0,0,.9)"></div>
+<!--整体遮罩区域结束-->
+
+<!--行动档案区域开始-->
+<section class="bigBox" >
+  <div class="container action">
+    <div class="action-top">
+      <img src="image/archives-logo-cn.png" alt="" class="archives-logo-cn">
+      <span>回顾过去</span>
+      <p>在“守望先锋”行动档案中体验重要的历史时刻吧。加入一支由四位英雄组成的小队，参与拥有剧情故事的合作任务，让你以全新的视角体会“守望先锋”解散前的时代。</p>
+      <p>今年，你可以指挥“暗影守望”的特工们，在惊险刺激的全新任务“威尼斯行动”中与“黑爪”展开决战。同时，你还有机会重温去年的“国王行动”任务，再次阻止智械的暴乱。想要迎接更艰难的挑战吗？那么你可以通过提升难度来获得额外的成就奖励。</p>
+      <p>你还可以在任务中获得行动补给，解锁出自“守望先锋”历史片段的全新外观皮肤、特写、表情和喷漆。行动补给同样可以直接购买——但是请抓紧时间，5月1日后这些补给将会被重新加密归档。</p>
+    </div>
+    <a href="javascript:void(0)" class="message">更多信息</a>
+  </div>
+  <div class="action-button"></div>
+</section>
+<!--行动档案区域结束-->
+
+<!--更多信息区域开始-->
+<section class="moreInformation ">
+  <div class="VeniceAction">
+    <div class="VeniceAction-content">
+      <h2>勇夺锦旗</h2>
+      <p>
+        在勇夺锦旗模式中，双方队伍将正面对抗，尝试在夺取敌方旗帜的同时防止对方夺取己方旗帜。玩家可以选择两种模式：“勇夺锦旗”和全新的“竞技夺旗”模式，后者将带来一系列竞技模式的体验，包括定级赛、技能等级、排行榜和竞技点数等。我们还新增了一张夺旗地图：阿育陀耶</p>
+    </div>
+    <div class="VeniceAction-text">
+      <h2>游戏改动</h2>
+      <p>今年，我们对勇夺锦旗模式进行了一些改变。你现在可以瞬间捡起旗帜，但扔下旗帜之后必须等待5秒才能捡起。归还旗帜需要4秒时间，但承受伤害不会中断归还旗帜。使用移动技能和无敌技能会扔下旗帜，此外，携带旗帜时还会有特别的背景音乐！平局时将通过“绝杀局”来决出胜负。时间耗尽后，回合会重新开始，旗帜会移动到离地图中心更近的地方，先夺取旗帜的队伍获胜。所有这些更改也将应用于旧的“勇夺锦旗”地图。</p>
+    </div>
+  </div>
+  <div class="moreInformation-more"></div>
+  <div class="accordion">
+    <div class="accordion-left">
+      <div class="mask"></div>
+      <div class="accordion-content">
+        <h2>新地图：阿育陀耶</h2>
+        <p>在新的夺旗地图中首次探访泰国</p>
+      </div>
+    </div>
+    <div class="line"><img src="image/wk-map-dividier-icon.png" alt=""></div>
+    <div class="accordion-right">
+      <div class="mask"></div>
+      <div class="accordion-content">
+        <h2>节日漓江塔</h2>
+        <p>体验漓江塔充满活力的新形象</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--更多信息区域结束-->
+
+<section class="unlocks">
+  <!--皮肤区域开始-->
+  <div class="derma common">
+    <h2>皮肤</h2>
+    <ul class="clearfix">
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <span>全新</span>
+        <p>午夜百合</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <span>全新</span>
+        <p>青龙</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <span>全新</span>
+        <p>白虎</p>
+      </a></li>
+      <li><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <span>全新</span>
+        <p>将军</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <span>全新</span>
+        <p>朱雀</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <span>全新</span>
+        <p>玄武</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>金黄</p>
+      </a></li>
+      <li><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>爆竹</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>旧正机甲</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>悟能</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>旗袍</p>
+      </a></li>
+      <li><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>河回假面</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>幺鸡堡垒</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>嫦娥</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>月神</p>
+      </a></li>
+      <li><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>三藏</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>玫瑰</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>悟空</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div><img src="image/wk-icons.png" alt=""></div>
+        <p>悟净</p>
+      </a></li>
+    </ul>
+  </div>
+  <!--皮肤区域结束-->
+  <!--特写区域开始-->
+  <div class="feature common">
+    <h2>特写</h2>
+    <ul class="clearfix">
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <span>全新</span>
+        <p>自信转身</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <p>舞狮迎春</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <p>胡吃海塞</p>
+      </a></li>
+      <li><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <p>福到运到</p>
+      </a></li>
+    </ul>
+  </div>
+  <!--特写区域结束-->
+  <!--表情区域开始-->
+  <div class="expression common">
+    <h2>表情</h2>
+    <ul class="clearfix">
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <span>全新</span>
+        <p>捏捏</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <span>全新</span>
+        <p>轻而易举</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <p>行礼</p>
+      </a></li>
+      <li><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <p>激动</p>
+      </a></li>
+      <li class="mr-4"><a href="javascript:void(0)">
+        <div>
+          <img src="image/wk-youtube-btn-ylw.png" alt="" class="ylw">
+          <img src="image/wk-youtube-btn-wh.png" alt="" class="wh">
+        </div>
+        <p>哑弹？</p>
+      </a></li>
+    </ul>
+  </div>
+  <!--表情区域结束-->
+</section>
+
+<!--unlocks区域点击弹出部分开始-->
+<div class="unlocks-pop-up">
+  <div class="title">
+    <h2></h2>
+    <span></span>
+    <div class="close"></div>
+  </div>
+  <div class="pop-up-img">
+    <ul></ul>
+    <div class="toLeft"></div>
+    <div class="toRight"></div>
+  </div>
+</div>
+<!--unlocks区域点击弹出部分开始-->
+
+
+<!--回顾过去区域开始-->
+<section class="formerly">
+  <div class="formerly-content">
+    <video muted src="video/wk-minor-Flunar-new-yearFlootboxFlootbox.webm" autoplay class="video" loop></video>
+    <div class="formerly-text">
+      <h2>回顾“守望先锋”的过去</h2>
+      <p>
+        打开时间胶囊，浏览尘封的档案，寻找“守望先锋”早期的记忆。打开行动补给解锁过去的片段，例如居家小美、黑爪特工“黑影”、28号实验品温斯顿、岛田先生半藏、黑暗守望者莫伊拉皮肤等等。超过60种新外观物品以及共计160余种个性化物品等你发现，不过别犹豫太久——很快，这些补给将会再次成为历史。</p>
+      <a href="swj-minor-index.html">购买补给</a>
+    </div>
+  </div>
+</section>
+<!--回顾过去区域结束-->
+
+<!-- 底部footer开始 -->
+<a href="javascript:" id="goTop">TOP</a>
+<footer>
+  <div class="footer">
+    <div class="t-top">
+      <a href="javascript:">
+        <span class="icon-1"></span>在线客服</a>
+      <a href="javascript:">
+        <span class="icon-2"></span>反馈</a>
+      <a href="javascript:">
+        <span class="icon-3"></span>加入我们</a>
+    </div>
+    <div class="t-center">
+      <a href="javascript:" class="logo-bz"></a>
+      <a href="javascript:" class="logo-ne"></a>
+      <div class="info">
+        <ul class="clearfix">
+          <li>
+            <a href="javascript:">隐私</a>|
+          </li>
+          <li>
+            <a href="javascript:">法律条款</a>|
+          </li>
+          <li>
+            <a href="javascript:">API</a>
+          </li>
+        </ul>
+        <p>
+          ©2018 暴雪娱乐有限公司版权所有 由上海网之易网络科技发展有限公司运营
+          <a href="javascript:">著作权侵权</a> |
+          <a href="javascript:">新广出审[2016]378号</a>
+        </p>
+        <p>
+          文网游进字[2016]0025号 |
+          <a href="javascript:">沪网文号〔2017〕9633-727号 </a> |
+          <a href="javascript:">增值电信业务经营许可证编号：沪B2－20080012</a>
+        </p>
+        <p>
+          互联网违法和不良信息举报电话：0571-28090163 沪公网安备 31011502022167号 |
+          <a href="javascript:">上海市网络游戏行业自律公约</a>
+        </p>
+        <p>
+          <img src="image/police.png" alt="">
+          <img src="image/zx110.png" alt="">
+          <img src="image/sgs-icon.png" alt="">
+          <img src="image/icon20120516.png" alt="">&nbsp; |&nbsp; 适龄提示：适合13岁及以上使用
+          <a href="javascript:">家长监护工程&gt;</a>
+        </p>
+      </div>
+    </div>
+    <div class="t-footer">
+      <p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。</p>
+      <p>健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+    </div>
+  </div>
+</footer>
+<!-- 底部footer结束 -->
+<script src="js/jQuery-3.3.1.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/wk-minor-index.js"></script>
+</body>
+
+</html>

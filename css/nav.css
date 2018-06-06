@@ -1,0 +1,339 @@
+/* 头部导航栏 开始 */
+
+body {
+  background-color: #f0edf2;
+  /* height: 2000px; */
+  font: normal normal normal 10px "microsoft yahei", Arial, sans-serif;
+  min-width: 1280px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  width: 100%;
+  min-width: 1250px;
+}
+
+header .iconfont {
+  font-size: 10px;
+}
+
+header .navbar {
+  background-color: rgba(2, 25, 72, .3);
+  height: 40px;
+  padding: 0 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, .15);
+  box-sizing: border-box;
+}
+
+header .navbar .iconfont {
+  color: rgba(255, 255, 255, .3);
+}
+
+header .nav-l h2 {
+  width: 62px;
+  height: 40px;
+  background: url(../image/fwd-icon-sprite.png) no-repeat -18px -75px;
+  text-indent: -999em;
+}
+
+header .nav-l h2:hover {
+  background-position: -18px -119px;
+}
+
+header .nav-l li {
+  margin-right: 30px;
+}
+
+header .nav-r li {
+  margin-right: 30px;
+}
+
+header li a {
+  display: inline-block;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, .7);
+  transition: color 200ms;
+}
+
+header .nav-l li:nth-child(2) a {
+  text-shadow: 0 0 7px #fff;
+}
+
+header .nav-l li {
+  float: left;
+}
+
+header .nav-r li {
+  float: left;
+}
+
+
+/* 小导航 开始 */
+
+header .navbars {
+  position: fixed;
+  top: 44px;
+  width: 100%;
+  transition: height .3s;
+  min-width: 1275px;
+  box-sizing: border-box;
+}
+
+header .navbars.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header .navbars .nav-border {
+  height: 2px;
+  background-color: rgba(0, 0, 0, .25);
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+}
+
+header .navbaars-main {
+  background-color: rgba(40, 53, 79, .9);
+  margin: 20px 20px 0 20px;
+  position: relative;
+  transition: 100ms linear;
+}
+
+header .navbars .navbaars-main.fixed {
+  margin: 0;
+}
+
+header .navbars li {
+  float: left;
+}
+
+header .navbars li>a:hover {
+  background-color: hsla(0, 0%, 100%, .1);
+  ;
+}
+
+header .navbars li a {
+  display: inline-block;
+  font-size: 1.6em;
+  height: 62px;
+  line-height: 62px;
+  width: 99px;
+  text-align: center;
+  transition: background-color 200ms;
+  position: relative;
+  color: rgba(255,255,255,.85);
+}
+
+
+/* 未完成 */
+
+header .navbars li a.navbars-bg {
+  background-color: rgba(31, 118, 188, .2);
+}
+
+header .navbars li a.navbars-bg::before {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #00c3ff;
+  box-shadow: 0 0 20px #00c3ff;
+}
+
+header .navbars li a.navbars-bg::after {
+  background: linear-gradient(to bottom, rgba(60, 209, 255, 0) 0, #3cd1ff 100%);
+  content: '';
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.2;
+}
+
+header .navbars li:first-child {
+  width: 245px;
+}
+
+header .navbars li h1 a {
+  display: block;
+  width: 100%;
+  height: 62px;
+  background: url(../image/fwd-nav-logo-sm.png) no-repeat center;
+  text-indent: -999em;
+}
+
+header .navbars .buy {
+  float: right;
+}
+
+header .navbars li a img {
+  margin-top: 28px;
+  margin-left: 3px;
+}
+
+header .navbars .buy a {
+  display: inline-block;
+  width: 99px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  background-color: #f7931e;
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+header .navbars .buy a:hover {
+  background-color: #f89e35;
+}
+
+
+/* 小导航 结束 */
+
+
+/* 头部导航栏 结束 */
+
+
+/* 隐藏页面开始 */
+
+header .Navbar-modalContent {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  top: 40px;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #161b25;
+  box-sizing: border-box;
+  border: 1px solid #3b3d46;
+  height: 255px;
+  display: none;
+  opacity: 0;
+}
+
+header .Navbar-modalContent a {
+  display: inline-block;
+  width: 152.2px;
+  height: 180px;
+  overflow: hidden;
+  text-align: center;
+  background: url(../image/nav/fwd-overwatch-CN-85c98611cefd3018.jpg) no-repeat center;
+  background-size: auto 100%;
+  margin: 0px 15px 15px 0;
+  transition: all .2s ease-out;
+  opacity: 0;
+  position: relative;
+  top: -10px;
+  filter: grayscale(55%);
+}
+
+header .Navbar-modalContent a:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+header .Navbar-modalContent a:nth-child(2) {
+  background-image: url(../image/nav/fwd-world-of-warcraft-CN-c4bebe45e5af0993.jpg);
+}
+
+header .Navbar-modalContent a:nth-child(3) {
+  background-image: url(../image/nav/fwd-hearthstone-CN-538b49564ab2122a.jpg);
+}
+
+header .Navbar-modalContent a:nth-child(4) {
+  background-image: url(../image/nav/fwd-storm-CN-bacafbbddcf92348.jpg);
+}
+
+header .Navbar-modalContent a:nth-child(5) {
+  background-image: url(../image/nav/fwd--starcraft-2-CN-de310c5ddfb63a49.jpg);
+}
+
+header .Navbar-modalContent a:nth-child(6) {
+  background-image: url(../image/nav/fwd-diablo-3-CN-0d57444efa52a79b.jpg);
+}
+
+
+/* 隐藏页面结束 */
+
+
+/* 小导航隐藏菜单 */
+
+.navbars .hideCover {
+  position: absolute;
+  width: 100%;
+  height: 42px;
+  background-color: rgba(61, 73, 96, .95);
+  top: 100%;
+  padding-left: 230px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.navbars .hideCover:last-child {
+  padding-left: 424px;
+  display: none;
+}
+
+.navbars .hideCover a {
+  float: left;
+  padding: 12px 35px;
+  font-weight: 100;
+  font-size: 12px;
+  border: none;
+  display: block;
+  color: rgba(255, 255, 255, .85);
+}
+
+.navbars .hideCover a:hover {
+  color: #fff;
+}
+
+.navbars .hideCover a:hover::before {
+  color: #00c3ff;
+}
+
+.navbars .hideCover a::before {
+  content: "|";
+  bottom: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  box-shadow: none;
+  position: relative;
+  display: inline-block;
+  color: transparent;
+  margin: 0 3px 0 0;
+  top: -0px;
+  transition: color .2s;
+}
+
+
+/* 回到顶部 */
+
+#goTop {
+  display: block;
+  width: 40px;
+  height: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, .25);
+  color: #000;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 12px;
+  z-index: 501;
+  display: none;
+  cursor: pointer;
+}

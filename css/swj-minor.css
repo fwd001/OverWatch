@@ -1,0 +1,349 @@
+/*头部区域开始*/
+  topPart {
+    width:100%;
+    height: 600px;
+    display: block;
+  }
+  header {
+    /*position: absolute;*/
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    width:100%;
+    min-width:1250px;
+  }
+  header .iconfont {
+    font-size: 15px;
+  }
+  header .navbar {
+    background-color: rgba(80,90,115,.95);
+    height: 60px;
+    padding: 0 40px;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    box-sizing: border-box;
+  }
+  header .navbar .iconfont {
+    color: rgba(255,255,255,.3);
+  }
+  header .nav-l h2 {
+    width: 90px;
+    height: 60px;
+    top:10px;
+    background: url(../image/fwd-icon-sprite.png) no-repeat -17px -6px;
+    text-indent: -999em;
+  }
+  /*header .nav-l h2:hover {*/
+  /*background-position: -18px -119px;*/
+  /*}*/
+  header .nav-l li  {
+    margin-right: 30px;
+  }
+  header .nav-r li  {
+    margin-right: 30px;
+  }
+  header .navbar li a {
+    display: inline-block;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    color: rgba(255,255,255,.7);
+    transition: color 200ms;
+  }
+  header .navbar li a:hover {
+    color: #fff;
+  }
+  header .nav-l li:nth-child(3) a {
+    text-shadow: 0 0 7px #fff;
+  }
+  header .nav-l li {
+    float: left;
+  }
+  header .nav-r li {
+    float: left;
+  }
+  /* 小导航 开始 */
+  header .navbars {
+    background-color: rgba(80,90,115,.88);
+    height: 40px;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    box-sizing: border-box;
+  }
+  header .navbars .iconfont {
+    color: rgba(255,255,255,.3);
+  }
+  header .navbars li a {
+    display: inline-block;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    color: rgba(255,255,255,.7);
+    transition: color 200ms;
+  }
+  header .navbars li a:hover {
+    color: #fff;
+  }
+  header .navs-l li {
+    float: left;
+  }
+  header .navs-r li {
+    float: left;
+  }
+  header .navs-l li  {
+    margin-left: 40px;
+  }
+  header .navs-r li  {
+    margin-right:70px;
+  }
+
+  /*背景大图片开始*/
+  .banner {
+    /*width:100%;*/
+    height: 500px;
+    position: relative;
+    /*overflow: hidden;*/
+  }
+   .banner li:nth-child(1) {
+    display: block;
+    background: url(../images/heroone.jpg) center 0 no-repeat;
+   }
+  .banner li:nth-child(2) {
+    /*display: block;*/
+    background: url(../images/herotwo.jpg) center center no-repeat;
+  } .banner li:nth-child(3) {
+     /*display: block;*/
+     background: url(../images/herothree.jpg) center center no-repeat;
+    }
+  .banner li {
+    position: absolute;
+    display: none;
+    width:100%;
+    height: 500px;
+    background-size: cover;
+  }
+  .arrow {
+    display: none;
+  }
+  .banner:hover .arrow  {
+    display: block;
+  }
+  .arrow-left,
+  .arrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .arrow-left:hover,
+  .arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .arrow-left {
+    left: 0;
+  }
+  .arrow-right {
+    right: 0;
+  }
+  .leg {
+    width: 230px;
+    height: 150px;
+    background:  url(../images/leg.png) center 0 no-repeat;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+  }
+  .twoman {
+    width: 230px;
+    height: 150px;
+    background:  url(../images/twoman.png) center 0 no-repeat;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+  }
+  .tale {
+    width: 230px;
+    height: 150px;
+    background:  url(../images/tale.png) center 0 no-repeat;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+  }
+
+  /*app介绍 开始*/
+  .app {
+    background: url(../images/smallBackground.png) center 0 no-repeat;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+    background-color: rgba(5, 40, 66, 1);
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  .app li {
+    float: left;
+    margin-left:40px;
+  }
+  .app li a {
+    display: inline-block;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255,255,255,.7);
+    transition: color 200ms;
+  }
+  .app li a:hover {
+    color: #fff;
+  }
+  mainPart {
+    width:100%;
+    height: 1665px;
+    display: block;
+  }
+  .introduce {
+    height: 600px;
+    background: url(../images/bigBackground.png) center 0 no-repeat;
+    background-color: rgba(5,40,85,1);
+    padding-top: 1px;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+  }
+  .introduce-more {
+    height:680px;
+    background-color: rgba(5,40,85,1);
+    padding-top: 1px;
+    /*border-bottom: 1px solid rgba(255,255,255,.15);*/
+  }
+
+  .title {
+    font-size: 24px;
+    margin: 30px;
+    color: white;
+  }
+  .title-introduce {
+    font-size: 18px;
+    color: hsla(0,0%,100%,.8);
+    font-weight: 100;
+  }
+  .introduce p,
+  .introduce-more p {
+    /*font-size: 18px;*/
+    margin-left: 30px;
+    /*color: white;*/
+  }
+  .first {
+    background-color: rgb(89, 60, 0);
+  }
+  .second {
+    background-color: rgb(15,15,7);
+  }
+  .third {
+    background-color: rgb(15,15,7);
+  }
+  .first,
+  .second ,
+  .third {
+    width: 280px;
+    height: 422px;
+    /*border: 1px solid #ccc;*/
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    /*transition: all 200ms linear;*/
+    background-size: 350px auto!important;cursor: pointer;
+  }
+  .first:hover {
+    transform: scale(1.03);
+  }
+  .second:hover {
+    transform: scale(1.03);
+  }
+  .third:hover {
+     transform: scale(1.03);
+   }
+  .top {
+    width: 220px;
+    height: 220px;
+    margin: 30px 30px 0 30px;
+    position: relative;
+  }
+  .img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    bottom: 0;
+  }
+  .first a ,
+  .second a ,
+  .third a {
+    font-size: 18px;
+    margin-left: 30px;
+    color: #fff;
+  }
+  .orange {
+    font-size: 14px;
+    color: orange;
+    padding: 10px 0;
+  }
+  .shadow {
+    font-size: 16px;
+    color: #999;
+    padding-bottom: 20px;
+  }
+  .first span,
+  .second span,
+  .third span {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+  }
+
+  /*底部区域开始*/
+  footer {
+    height: 380px;
+    background-color: rgba(5,40,85,1);
+    padding: 1px;
+  }
+  footer .logo {
+    width: 90px;
+    height: 60px;
+    margin: 20px auto;
+    background: url(../image/fwd-icon-sprite.png) no-repeat -17px -6px;
+    text-indent: -999em;
+  }
+  footer .themore,
+  footer .privacy {
+    height: 30px;
+    text-align: center;
+    margin: 8px 0;
+  }
+  footer .themore a,
+  footer .privacy a {
+    font-size: 14px;
+    color: rgba(255,255,255,.7);
+  }
+  footer .themore a:hover,
+  footer .privacy a:hover {
+    color: #fff;
+  }
+  footer p {
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255,255,255,0.3);
+  }
+  footer .police {
+    width: 120px;
+    height: 28px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }

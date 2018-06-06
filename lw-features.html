@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="fonts/iconfont.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/features.css">
+  <link rel="icon" href="overwatch.ico" type="image/x-icon">
+  <title>守望先锋</title>
+</head>
+
+<body>
+  <!-- 头部 导航栏 开始-->
+
+  <header>
+    <!-- 头导航 -->
+    <div class="navbar clearfix">
+      <ul class="nav-l fl">
+        <li>
+          <h2>暴雪</h2>
+        </li>
+        <li id='gamesBtn'>
+          <a href="javascript:">游戏
+                      <i class="iconfont icon-arrow-down"></i>
+                  </a>
+        </li>
+        <li>
+          <a href="javascript:">商城 </a>
+        </li>
+        <li>
+          <a href="javascript:">新闻 </a>
+        </li>
+        <li>
+          <a href="javascript:">电子游戏
+                      <i class="iconfont icon-arrow-down"></i>
+                  </a>
+        </li>
+      </ul>
+      <ul class="nav-r fr">
+        <li>
+          <a href="javascript:">支持 </a>
+        </li>
+        <li>
+          <a href="javascript:">你的通行证
+                      <i class="iconfont icon-arrow-down"></i>
+                  </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 隐藏部分游戏分类 -->
+    <div class="Navbar-modalContent" id="Navbar-modalContent">
+      <div class="container">
+        <a href="javascript:" id="firstGame"></a>
+        <a href="javascript:"></a>
+        <a href="javascript:"></a>
+        <a href="javascript:"></a>
+        <a href="javascript:"></a>
+        <a href="javascript:"></a>
+      </div>
+    </div>
+    <!-- 小导航 -->
+    <div class="navbars">
+      <div class="navbaars-main clearfix">
+        <ul class="fl">
+          <li>
+            <h1>
+              <a href="fwd-home-index.html">守望先锋</a>
+            </h1>
+          </li>
+          <li>
+            <a class="navbars-bg" href="javascript:" id="smallGameBtn">游戏
+                          <img src="image/fwd-caret-gray.png" alt="">
+                      </a>
+          </li>
+          <li>
+            <a href="fwd-heroes-index.html">英雄</a>
+          </li>
+          <li>
+            <a href="javascript:" id="smallActivityBtn">活动
+              <img src="image/fwd-caret-gray.png" alt="">
+                      </a>
+          </li>
+          <li>
+            <a href="yxw-index.html">视频图片</a>
+          </li>
+          <li>
+            <a href="yxw-cy-index.html">新闻</a>
+          </li>
+          <li>
+            <a href="lh-index.html">下载</a>
+          </li>
+          <li>
+            <a href="lh-ciindex.html">生涯数据</a>
+          </li>
+          <li>
+            <a href="swj-major-index.html">电子竞技</a>
+          </li>
+          <li>
+            <a href="javascript:">论坛</a>
+          </li>
+        </ul>
+        <div class="buy">
+          <a href="swj-minor-index.html">购买</a>
+        </div>
+        <div class="nav-border"></div>
+        <div class="hideCover">
+          <a href="lw-features.html">概述</a>
+          <a href="javascript:;">补丁</a>
+        </div>
+        <div class="hideCover">
+          <a href="wk-index.html">行动档案</a>
+          <a href="wk-minor.html">欢度新春</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </header>
+
+  <!-- 头部 导航栏 结束-->
+
+  <!-- 从这里开始写 -->
+  <!-- lw 欢迎加入 data-scroll-reveal="enter top after 0.3s" -->
+  <div class="lw-content lw-w100">
+    <!-- 欢迎开始 -->
+    <div class="lw-overview-section" id="lw-jump-tv">
+      <div class="lw-page-wrapper container">
+        <!-- 视频 -->
+        <div class="fl lw-vid">
+          <a href="javascript:;" id="lw-vid-go">
+            <img src="image/new-gameplay-trailer.jpg" alt="">
+            <div class="lw-vid-bg"></div>
+          </a>
+        </div>
+        <!-- 文字介绍 -->
+        <div class="fr wel-fs" data-scroll-reveal="enter right after 0.3s">
+          <h2>欢迎加入《守望先锋》</h2>
+          <p>
+            在《守望先锋》这款团队射击游戏中，你将控制许多风格迥异的英雄中的其中一个，与战友组成一支六人队伍，和对手抢夺目标、决一死战并夺取最终的胜利！
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--播放视频开始-->
+    <div class="lw-vid-keep">
+      <div class="lw-vid-play">
+        <video src="video/mobile.mp4" autoplay controls loop muted>
+               </video>
+      </div>
+    </div>
+    <!--播放视频结束-->
+    <div class="lw-u-font-shadow" id="lw-jump-elect">
+      <div class="shadow-le shadow-cn">
+
+      </div>
+      <div class="shadow-fr shadow-cn">
+
+      </div>
+      <div class="container lw-container-pr">
+        <img src="image/game_teams_center.png" alt="">
+        <div>
+          <h3 data-scroll-reveal="enter top after 0.3s">选择英雄</h3>
+          <p>在开始《守望先锋》的游戏前，你需要了解如何选择英雄。</p>
+          <p>也许你会喜欢一只来自月球，经过基因改造并且使用着电磁炮的大猩猩科学家。也许你会青睐一个以禅坐姿势漂浮的机械僧侣，既能治疗盟友，也能削弱敌人。或者，你会喜欢一名能够快速传送、穿梭时间的自由战士？</p>
+          <a href="">查看所有英雄</a>
+        </div>
+      </div>
+    </div>
+    <!-- 扮演你的角色 -->
+    <div class="lw-role-section" id="lw-jump-role">
+      <div class="container lw-role-section-cn">
+        <h3 data-scroll-reveal="enter top after 0.3s">扮演你的角色</h3>
+        <div class="con-au">
+          <ul>
+            <li><span></span>
+              <p>突击</p>
+            </li>
+            <li><span></span>
+              <p>防御</p>
+            </li>
+            <li><span></span>
+              <p>重装</p>
+            </li>
+            <li><span></span>
+              <p>支援</p>
+            </li>
+          </ul>
+        </div>
+        <div class="lw-role-descriptions">
+          <p data-scroll-reveal="enter bottom after 0.3s">突击英雄是负责制造大量伤害的英雄，目标很简单：探敌、发现以及摧毁。</p>
+          <p data-scroll-reveal="enter bottom after 0.4s">防御英雄一般都具有控场能力，阻碍敌人的进攻或者强化防御工事。作为防御英雄，你的任务就是阻碍敌人前进的脚步。</p>
+          <p data-scroll-reveal="enter bottom after 0.5s">重装英雄负责吸收伤害以及冲散对方的防御，在冲击抱团的敌人或是突击咽喉要道时有着重要的作用。如果你是一名重装英雄，你就得扛起率领团队攻击的责任。</p>
+          <p data-scroll-reveal="enter bottom after 0.6s">支援英雄能够保护并强化盟友。他们能够给盟友治疗或添加护盾，提升盟友造成的伤害或移动速度，甚至还能复活盟友继续战斗。作为一名支援英雄，你就是团队存活的关键。</p>
+        </div>
+      </div>
+    </div>
+    <!-- 地图 -->
+    <div class="lw-game-maps-section" id="lw-jump-map">
+      <h2 data-scroll-reveal="enter top after 0.3s">地图</h2>
+      <p>在《守望先锋》中，英雄们在世界各个地区作战。从努巴尼的科技奇观到沃斯卡娅的工业中枢，每张地图都有独特的布局和胜利条件，你必须完成这些要求才能获得胜利。</p>
+    </div>
+    <!-- 玩法 -->
+    <div class="lw-map-types">
+      <ul class="container">
+        <li data-scroll-reveal="enter top after 0.3s">
+          <h3>攻防作战</h3>
+          <p>进攻方必须占领一系列目标点；防守方必须阻止进攻方，直至时间耗尽。</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <h3>攻击/护送</h3>
+          <p>进攻方必须首先夺取运载目标，随后将其护送至目的地；防守方则必须阻止进攻方。</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <h3>勇夺锦旗</h3>
+          <p>两支由6位玩家组成的队伍必须夺取敌方的旗帜，同时还得守住自己的旗帜。</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.4s">
+          <h3>占领要点</h3>
+          <p>两支队伍必须争夺并守住同一个目标点；第一支赢得两个回合的队伍即可获胜。</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.4s">
+          <h3>运载目标</h3>
+          <p>进攻方必须将运载目标护送至目的地，而防守方必须在时间耗尽之前，阻止进攻方护送。</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.4s">
+          <h3>竞技场</h3>
+          <p>两支队伍必须在1v1或3v3情况下消灭所有对手。</p>
+        </li>
+        <li class="map-types-left" data-scroll-reveal="enter top after 0.45s">
+          <h3>死斗</h3>
+          <p>8人自由混战，玩家必须尽快地消灭尽可能多的敌人。</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.45s">
+          <h3>团队死斗</h3>
+          <p>两支由4位玩家组成的队伍必须尽快地消灭尽可能多的敌人。</p>
+        </li>
+      </ul>
+    </div>
+    <!-- 地图 -->
+    <div class="lw-maps">
+      <ul class="container clearfix">
+        <li data-scroll-reveal="enter top after 0.3s">
+          <span class="maps-bg"></span>
+          <img src="image/PBW0LRJT9XFB1497479758741.jpg">
+          <div><img src="image/LHXOBVHDOPBB1485822754263.jpg"><span>阿努比斯神殿</span></div>
+          <p><span>攻防作战</span> </p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.5s">
+          <span class="maps-bg"></span>
+          <img src="image/XWD59FMGI6KG1497480252023.jpg">
+          <div><img src="image/KSZ28DL90HUS1485822754254.jpg"><span>花村</span></div>
+          <p><span>攻防作战</span> </p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.7s">
+          <span class="maps-bg"></span>
+          <img src="image/J29ICNBO32QF1497481130795.jpg">
+          <div><img src="image/IXDF3VHB9H781485822754226.jpg"><span>沃斯卡娅工业区</span></div>
+          <p><span>攻防作战</span> </p>
+        </li>
+        <!-- 2 -->
+        <li data-scroll-reveal="enter top after 0.7s">
+          <span class="maps-bg"></span>
+          <img src="image/9AE0ARWHZE7S1497480542404.jpg">
+          <div><img src="image/EQ29NPYEXLDQ1485822754226.jpg"><span>地平线月球基地</span></div>
+          <p><span>攻防作战</span></p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.5s">
+          <span class="maps-bg"></span>
+          <img src="image/X0WORICQ092M1497480184004.jpg">
+          <div><img src="image/EQ29NPYEXLDQ1485822754226.jpg"><span>检测站：直布罗陀</span></div>
+          <p><span>运载目标</span> </p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <span class="maps-bg"></span>
+          <img src="image/FNBIVXUVWF6X1497480004798.jpg">
+          <div><img src="image/CCKOMHG7C6Z41485822754224.jpg"><span>多拉多</span></div>
+          <p><span>运载目标</span> </p>
+        </li>
+        <!-- 3 -->
+        <li data-scroll-reveal="enter top after 0.3s">
+          <span class="maps-bg"></span>
+          <img src="image/HJDM6SIEAIGO1497481024426.jpg">
+          <div><img src="image/HEQ2ZVJ4G6LA1485822754165.jpg"><span>66号公路</span></div>
+          <p><span>运载目标</span> </p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.5s">
+          <span class="maps-bg"></span>
+          <img src="image/IV5O9C45P5WZ1497480735641.jpg">
+          <div><img src="image/2W0K1IT1EUIP1485822754150.jpg"><span>漓江塔</span></div>
+          <p><span>占领要点</span> <span>勇夺锦旗</span><span>团队死斗</span></p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.7s">
+          <span class="maps-bg"></span>
+          <img src="image/M1HBN0EWTLNH1497480605870.jpg">
+          <div><img src="image/HLM6WAZIKGJD1485822754142.jpg"><span>伊利奥斯</span></div>
+          <p><span>占领要点</span> <span>勇夺锦旗</span><span>团队死斗</span></p>
+        </li>
+        <!-- 4 -->
+        <li data-scroll-reveal="enter top after 0.7s">
+          <span class="maps-bg"></span>
+          <img src="image/L933MRWMZF051497480865371.jpg">
+          <div><img src="image/CO2EHEFHGU981485822753898.png"><span>尼泊尔</span></div>
+          <p><span>占领要点</span> <span>勇夺锦旗</span><span>团队死斗</span></p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.5s">
+          <span class="maps-bg"></span>
+          <img src="image/MNNHA2I8CTIG1497480960107.jpg">
+          <div><img src="image/LHXOBVHDOPBB1485822754263.jpg"><span>绿洲城</span></div>
+          <p><span>占领要点</span> <span>勇夺锦旗</span><span>团队死斗</span></p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <span class="maps-bg"></span>
+          <img src="image/1N4T9SV42PEZ1497480670407.jpg">
+          <div><img src="image/QSUIFBE8AUVF1485822753785.jpg"><span>国王大道</span></div>
+          <p><span>攻击/护送</span> </p>
+        </li>
+        <!-- 5 -->
+        <li data-scroll-reveal="enter top after 0.3s">
+          <span class="maps-bg"></span>
+          <img src="image/SAWJZIV2C8O01497480910941.jpg">
+          <div><img src="image/R0WQVPGOD6C71485822753785.jpg"><span>努巴尼</span></div>
+          <p><span>攻击/护送</span></p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.5s">
+          <span class="maps-bg"></span>
+          <img src="image/SNFN7H4IKSXB1497480310825.jpg">
+          <div><img src="image/HEQ2ZVJ4G6LA1485822754165.jpg"><span>好莱坞</span></div>
+          <p><span>攻击/护送</span></p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.7s">
+          <span class="maps-bg"></span>
+          <img src="image/BHEFPR35C1JM1497480094760.jpg">
+          <div><img src="image/V845K8JV203J1485822753786.jpg"><span>艾兴瓦德尔</span></div>
+          <p><span>攻击/护送</span></p>
+        </li>
+        <!-- 6 -->
+        <li data-scroll-reveal="enter top after 0.7s">
+          <span class="maps-bg"></span>
+          <img src="image/7TZM85O9OVKP1497479820368.jpg">
+          <div><img src="image/V845K8JV203J1485822753786.jpg"><span>黑森林</span></div>
+          <p><span>竞技场</span> </p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.5s">
+          <span class="maps-bg"></span>
+          <img src="image/O5PBEW7HQF4M1497479644412.jpg">
+          <div><img src="image/EQ29NPYEXLDQ1485822754226.jpg"><span>生态监测站：南极洲</span></div>
+          <p><span>竞技场</span> </p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <span class="maps-bg"></span>
+          <img src="image/XITFVIDCHUSX1497480792852.jpg">
+          <div><img src="image/LHXOBVHDOPBB1485822754263.jpg"><span>墓园</span></div>
+          <p><span>竞技场</span></p>
+        </li>
+        <!-- 7 -->
+        <li data-scroll-reveal="enter top after 0.3s">
+          <span class="maps-bg"></span>
+          <img src="image/2IUEKN9SSRHT1497479900306.jpg">
+          <div><img src="image/CCKOMHG7C6Z41485822754224.jpg"><span>城堡</span></div>
+          <p><span>竞技场</span></p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.5s">
+          <span class="maps-bg"></span>
+          <img src="image/IFSO13YI5HB91503000673807.jpg">
+          <div><img src="image/Z9KQLDUE1JO41503000600421.jpg"><span>吉拉德堡</span></div>
+          <p><span>死斗</span> </p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.7s">
+          <span class="maps-bg"></span>
+          <img src="image/PBW0LRJT9XFB1497479758741.jpg">
+          <div><img src="image/LHXOBVHDOPBB1485822754263.jpg"><span>阿努比斯神殿</span></div>
+          <p><span>攻防作战</span> <span>攻防作战</span><span>攻防作战</span></p>
+        </li>
+
+      </ul>
+    </div>
+    <!-- 基础介绍 -->
+    <div class="lw-content-box" id="lw-jump-base">
+      <div class="container clearfix">
+        <div class="content-box-h">
+          <h2 data-scroll-reveal="enter top after 0.3s">《守望先锋》基础介绍</h2>
+          <p>在你加入战斗之前，我们建议你先通过教学模式了解这款游戏。教学模式可以在短时间内通过有趣的形式为你展现《守望先锋》的基础知识。</p>
+        </div>
+        <div class="lw-content-box-b">
+          <h3>技能</h3>
+          <p>技能就是《守望先锋》英雄们的独特武器，他们用技能来击败对手、保卫盟友或是进行快速移动——合理应用技能就是赢得比赛的关键。</p>
+          <p>最常用的就是主武器的自动射击（鼠标左键）。不论你的武器是短距武器、长距武器、冰霜喷射枪还是投射武器，你都不需要为其寻找弹药，只需要使用装填（R键）就能保持畅快的输出！有些武器有第二种攻击模式，这时就需要使用另一个射击按钮了（鼠标右键）。</p>
+          <p>不同的英雄具有的移动或支援技能也完全不同，譬如有些能放置光子哨戒炮，有些能使用音乐加速、有些能使用短距离传送。很多技能都具有冷却时间，一次使用后必须等待一段时间才能再度使用。</p>
+        </div>
+        <div class="lw-content-box-b">
+          <h3>近战攻击</h3>
+          <p>每个英雄都可以使用近战攻击（V键），近战攻击是一次快速的短距离攻击，不需要消耗任何弹药。你可以使用近战攻击来终结濒危的敌人或者在弹药装填的间隙继续造成伤害。</p>
+
+        </div>
+        <div class="lw-content-box-b">
+          <h3>终极技能</h3>
+          <p>终极技能（Q键）是威力强大的技能，可以改变比赛的局势。随着比赛的进行，终极技能会缓慢充能，当你造成伤害或承受伤害时也会获得充能。只要你不改变英雄，即使死亡后你的充能进度也不会消失。</p>
+        </div>
+      </div>
+    </div>
+    <!-- 比赛开始 -->
+    <div class="lw-game-start" id="lw-jump-start">
+      <h3 data-scroll-reveal="enter top after 0.3s">比赛开始</h3>
+      <div class="container clearfix">
+        <div class="lw-content-box-b">
+          <h3>选择英雄：</h3>
+          <p>每场比赛开始前你都必须先选择英雄。通过考虑地图因素，和队友沟通以及观察队伍构成来调整自己的英雄选择 。如果你的队伍正准备防守一个目标，狂鼠或者堡垒可能是不错的选择。</p>
+          <p>一场比赛中形势总在不停变换，因此你有可能需要切换英雄。在队伍起始区域按下（H键）即可选择新的英雄。但要记住，切换英雄后终极技能的充能将会重置！</p>
+        </div>
+        <div class="lw-content-box-b">
+          <h3>生命值：</h3>
+          <p>生命值即是在死亡之前一名英雄能够承受的伤害。生命值能够通过收集每张地图固定地点刷新的急救包进行恢复，或者通过一些技能（辅助英雄较多该类型技能）进行恢复。当英雄的生命值降到零时，他们就会死亡，但一小段时间后他们将在起始区域重生。当你等待重生时，队伍就会面临人数不足的劣势，所以保证自己和队友的存活十分重要！</p>
+          <p>除了生命值之外，通过护盾和护甲英雄也可以获得更强的生存能力，受到伤害时会先削减护盾和护甲，然后才是生命值。</p>
+        </div>
+        <div class="lw-content-box-b">
+          <h3>比赛结束：</h3>
+          <p>满足胜利条件后，比赛结束。所有玩家都能观看本场比赛夺得全场最佳的玩家的精彩镜头回放，队友的比赛数据，还可以为互相的表现评分，选出比赛表现最佳的玩家以及为比赛提交反馈。补给有机会开出最佳特写，这个物品可以改变你夺得全场最佳时播放的英雄介绍动画。</p>
+        </div>
+        <div class="side-tips-section">
+          <h3>咽喉要道：</h3>
+          <p>在比赛过程中队伍经常要通过一些狭窄的区域，这些区域也是重要的战略要点，经常爆发团战。如果你要防守一处这样的区域，可以避过敌人的火力范围，再部署你的防御工事（狂鼠的捕兽夹、堡垒的哨卫模式或者托比昂的炮台）。</p>
+          <p>如果你想要穿过这么一个区域，可以选择具有高机动性技能的英雄（猎空的闪现、温斯顿的喷射背包，或是半藏和源氏的攀爬技能），或者具有强大范围杀伤能力的英雄（法老之鹰的火箭发射器），或者能够为团队多名队员提供支援技能的英雄（卢西奥的音障）。</p>
+          <h3 class="lw-m-t">团队协作：</h3>
+          <p>尽量不要单独面对敌方队伍！团队行动才能确保队友之间的协作进攻，以及支援英雄的保护效果。</p>
+        </div>
+      </div>
+    </div>
+    <!-- 获取奖励 -->
+    <div class="lw-reward" id="lw-jump-reward">
+      <div class="lw-font-referral">
+        <h3 data-scroll-reveal="enter top after 0.3s">获取奖励</h3>
+        <p>经过一些比赛后，你的等级将获得提升，还可以获得一些新的自定义物品，让你的英雄更有特色！你可以通过主菜单下的英雄菜单进行自定义调整。 </p>
+      </div>
+      <div class="lw-reward-bg">
+      </div>
+      <div class="container clearfix">
+        <div class="lw-content-box-b lw-reward-cn fl" data-scroll-reveal="enter left after 0.3s">
+          <h3>补给</h3>
+          <p>补给可以开出各种自定义物品，每次升级你都可以获得一个补给，你也可以在商城中购买更多补给。补给有机会开出货币，让你直接解锁很多其他物品。每提升10级你还可以获得一个新的头像边框（在你获得所有头像边框之后将不再获得）。 </p>
+
+        </div>
+        <img class="lw-reward-fl fl" src="image/graphic-loot.png" data-scroll-reveal="enter right after 0.3s">
+      </div>
+      <div class="container clearfix">
+        <div class="lw-reward-t fl" data-scroll-reveal="enter bottom after 0.3s"><img src="image/graphic-achievements.png"></div>
+        <div class="lw-content-box-b lw-reward-cn fl" data-scroll-reveal="enter bottom after 0.3s">
+          <h3>成就和徽章</h3>
+          <p>当你完成了一些特殊成就后将获得成就点数以及特殊的成就徽章。你可以在成就页面查看你的成就以及徽章信息，同时也可以了解你自己的玩法和技能水平。你可以通过主菜单的浏览生涯概况选项和你的朋友分享这些成就。 </p>
+        </div>
+      </div>
+    </div>
+    <!-- 游戏模式 -->
+    <div class="lw-game-modes" id="lw-tiao-last">
+      <div class="lw-font-referral">
+        <h3 data-scroll-reveal="enter top after 0.3s">游戏模式</h3>
+        <p>《守望先锋》中有许多游戏内容，我们建议先从教学模式开始了解游戏的基础，然后在主菜单页面下体验其他模式： </p>
+      </div>
+      <ul class="lw-game-mode-cn clearfix">
+        <li data-scroll-reveal="enter top after 0.3s">
+          <img class="lw-game-big" src="image/thumb-practiceRange.jpg">
+          <img class="li-game-sml" src="image/icon-practiceRange.png">
+          <h4>训练靶场</h4>
+          <p>这个模式你可以利用机器人锻炼枪法，了解技能的使用，磨练自己的技艺或者尝试体验新的英雄</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <img class="lw-game-big" src="image/thumb-vsAI.jpg">
+          <img class="li-game-sml" src="image/icon-vsAI.png">
+          <h4>电脑训练</h4>
+          <p>这个模式可以让你对抗电脑控制的敌人，并选择想要尝试的地图。在这个模式你可以体验不同的地图以及如何进行配合。</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <img class="lw-game-big" src="image/thumb-quickPlay.jpg">
+          <img class="li-game-sml" src="image/icon-quickPlay.png">
+          <h4>快速游戏</h4>
+          <p>这个模式可以让你和技能相近的玩家进行一场比赛。</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <img class="lw-game-big" src="image/thumb-customGame.jpg">
+          <img class="li-game-sml" src="image/icon-customGame.png">
+          <h4>自定比赛</h4>
+          <p>这个模式可以自行调整游戏的设置（禁选英雄，强化终极技能的充能等等）</p>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <img class="lw-game-big" src="image/thumb-arcade.jpg">
+          <img class="li-game-sml" src="image/icon-arcade.png">
+          <h4>街机先锋</h4>
+          <p>参加规则独特的节日比赛，赢取每周奖励！</p>
+          <a class="lw-game-a" href="javascript:;">了解更多</a>
+        </li>
+        <li data-scroll-reveal="enter top after 0.3s">
+          <img class="lw-game-big" src="image/thumb-competitivePlay.jpg">
+          <img class="li-game-sml" src="image/icon-competitivePlay.png">
+          <h4>竞技比赛</h4>
+          <p>与其他玩家较量，提升自己的排位级别</p>
+          <a class="lw-game-a" href="javascript:;">了解更多</a>
+      </ul>
+    </div>
+    <!-- 与友同乐 -->
+    <div class="lw-friends">
+      <div class="lw-friends-xin clearfix">
+        <div class="lw-friends-img" data-scroll-reveal="enter right after 0.3s"><img src="image/hanzo-genji.png"></div>
+
+        <div class="lw-friends-cn" data-scroll-reveal="enter left after 0.3s">
+          <h3>与友同乐</h3>
+          <p>和朋友或其他玩家一起对抗电脑控制的对手也是体验《守望先锋》一种很好的方式，但如果你可以组队进行游戏，获得的奖励将会更多。</p>
+          <p>你可以从社交互动菜单中邀请你的好友（或者添加新的好友）加入队伍，点击（O键）键即可进入社交互动菜单。当组成队伍后，你们将拥有自己的语音和聊天频道。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 侧栏开始 -->
+  <ul class="lw-sub-nav-menu" id="lw-sub-nav-menu">
+    <li>
+      <a href="#lw-jump-tv">
+        <i class="lw-sub-nav-menu-i">
+                <svg class="icon sub-nav-icon" viewBox="0 0 32 32">
+                    <path d="M7.5,2.6c0,0-0.6,0-1.2,0.1L5,3.9v24.3l1.2,1.2h1.3l21.8-12.8v-1.3L7.5,2.6z"></path>
+                </svg>
+            </i>
+        <span>守望先锋</span>
+      </a>
+    </li>
+    <li>
+      <a href="#lw-jump-elect">
+        <i>
+                <svg class="icon sub-nav-icon" viewBox="0 0 32 32">
+
+                    <path d="M24.6,24.2c-1-2.8-2.7-3.1-5.2-4.1c-0.3-0.1-0.6-0.3-0.8-0.5c-0.5,0-0.8-0.4-1-0.7c-0.9-1.1-1.5-1.4-2.2-2.6
+
+                c-0.5-1-0.4-1.8,0.3-2.6c3-3.2,2-2.4,1.7-6.1c0-0.1,0-0.1,0-0.2l-0.6-2.1c-0.6-1.3-1.9-2.2-3.6-2.3C9.9,2.6,8.4,4,7.9,5.6
+
+                c0,0.1-0.1,0.2-0.1,0.3c-0.6,3-1,5.2,1.4,7.8c0.4,0.5,0.8,1,0.6,1.6c-0.7,2-1.9,2.9-3.4,4.6c-0.1-0.1-0.1-0.1-0.2-0.2
+
+                C6.1,19.8,6,19.9,5.8,20c-0.5,0.3-1.2,0.3-1.8,0.4c-0.4,0.1-0.8,0.3-1.1,0.5c-0.5,0.5-1,1-1.5,1.6C1.2,23,1,23.5,0.8,24l12,6.9h0.3
+
+                h0.4l11.2-6.5C24.7,24.4,24.6,24.3,24.6,24.2z"></path>
+
+                    <path d="M19,13.7c0,0-1.8,1.5-0.3,2.5l1.4,1.4l3,1.4l1.5,0.8l1,0.8l0.9,1.1l0.9,1.6l3.9-2.6c0-0.1,0-0.2-0.1-0.2
+
+                c-0.8-2.4-2.4-2.7-4.5-3.6c-0.3-0.1-0.5-0.3-0.7-0.5c-0.4,0-0.7-0.3-0.9-0.6c-0.7-1-1.3-1.2-1.9-2.3c-0.4-0.8-0.4-1.6,0.3-2.3
+
+                c1.4-1.5,1.6-3.4,1.4-5.3c0-0.1,0-0.1,0-0.2l-0.5-1.9c-0.6-1.2-1.7-1.9-3.1-2c-1.6-0.1-2.1,0.1-2.9,0.6c0.8,1,1.8,2.7,1.8,5.2
+
+                C20.2,7.6,20.7,10.5,19,13.7z"></path>
+
+                </svg>
+            </i>
+        <span>英雄</span>
+      </a>
+    </li>
+    <li>
+      <a href="#lw-jump-role">
+        <i>
+                <svg class="icon sub-nav-icon" viewBox="0 0 32 32">
+
+                    <path d="M25.9,1c0,0-4.2,1.1-9.9,1.1S6.1,1,6.1,1C3.4,0.6,3.2,3.8,3.2,3.8v10.4c0,3,0.5,3.7,0.5,3.7c1.4,2.8,4.4,6.2,4.4,6.2
+
+                c6.5,7.5,8,7,8,7s1.4,0.5,8-7c0,0,3-3.4,4.4-6.2c0,0,0.5-0.7,0.5-3.7V3.8C28.9,3.8,28.6,0.6,25.9,1z M22.1,15.6
+
+                c0,0.4-0.3,0.8-0.8,0.8h-3.1v3.1c0,0.4-0.3,0.8-0.8,0.8h-2.8c-0.4,0-0.8-0.3-0.8-0.8v-3.1h-3.1c-0.4,0-0.8-0.3-0.8-0.8v-2.8
+
+                c0-0.4,0.3-0.8,0.8-0.8h3.1V8.9c0-0.4,0.3-0.8,0.8-0.8h2.8c0.4,0,0.8,0.3,0.8,0.8V12h3.1c0.4,0,0.8,0.3,0.8,0.8V15.6z"></path>
+
+                </svg>
+            </i>
+        <span>角色</span>
+      </a>
+    </li>
+    <li>
+      <a href="#lw-jump-map">
+        <i>
+                <svg class="icon sub-nav-icon" viewBox="0 0 32 32">
+
+                    <circle r="3.9" cy="13.5" cx="16.2"></circle>
+
+                    <g>
+
+                        <path d="M16.1,1.8C9.7,1.8,4.4,7.1,4.4,13.5c0,6.4,5.2,11.7,11.7,11.7S27.8,20,27.8,13.5C27.8,7.1,22.6,1.8,16.1,1.8z M16.1,21.6
+
+                    C11.6,21.6,8,18,8,13.5s3.6-8.1,8.1-8.1s8.1,3.6,8.1,8.1S20.6,21.6,16.1,21.6z"></path>
+
+                        <path d="M16.6,31.3l0.1-0.2l3.1-7.9l0.2-0.5c0-0.1,0-0.1,0-0.2c0-0.5-0.3-0.9-0.6-0.9h-6.6c-0.4,0-0.6,0.4-0.6,0.9
+
+                    c0,0.1,0,0.2,0,0.3l0.1,0.2l3.2,8l0.1,0.2c0.1,0.2,0.3,0.4,0.5,0.4C16.3,31.7,16.5,31.5,16.6,31.3z"></path>
+
+                    </g>
+
+                </svg>
+            </i>
+        <span>地图</span>
+      </a>
+    </li>
+    <li>
+      <a href="#lw-jump-base">
+        <i>
+                <svg class="icon sub-nav-icon" viewBox="0 0 32 32">
+
+                    <path d="M15.24,18.36l-6.56-5.49c0,0-0.2-0.22,0.03-0.41L25.12,1.85c0,0,0.31-0.09,0.37,0.09c0,0,0.14,0.22-0.02,0.39l-9.69,9.93
+
+    l6.79,6.02c0,0,0.22,0.15,0.05,0.41L6.85,30.15c0,0-0.15,0.12-0.37-0.05c0,0-0.14-0.2,0-0.43L15.24,18.36z"></path>
+
+                </svg>
+            </i>
+        <span>基础介绍</span>
+      </a>
+    </li>
+    <li>
+      <a href="#lw-jump-start">
+        <i>
+                <svg class="icon sub-nav-icon" viewBox="0 0 32 32">
+
+                    <g>
+
+                        <path d="M17.9,9.6l-5.6,14.8H9.3L3.7,9.6H7l3.9,10.5l4-10.5H17.9z"></path>
+
+                    </g>
+
+                    <g>
+
+                        <path d="M27.3,11.1L25,13.5c-0.7-0.9-1.5-1.3-2.5-1.3c-0.6,0-1,0.2-1.4,0.5c-0.4,0.3-0.6,0.7-0.6,1.2c0,0.5,0.2,0.9,0.6,1.2
+
+                    c0.4,0.3,1.2,0.6,2.3,1c1.2,0.4,2.1,0.8,2.6,1.2c1.1,0.8,1.6,1.9,1.6,3.1c0,1.4-0.6,2.5-1.7,3.4c-1,0.8-2.5,1.3-4.4,1.3
+
+                    c-2,0-3.7-0.6-5.2-1.8l2.2-2.3c1.1,0.9,2.1,1.4,3.1,1.4c0.7,0,1.2-0.2,1.6-0.6c0.3-0.3,0.4-0.7,0.4-1.1c0-0.7-0.5-1.3-1.4-1.7
+
+                    c-0.3-0.2-1.2-0.5-2.5-1c-2.1-0.8-3.1-2.1-3.1-3.9c0-1.5,0.6-2.6,1.9-3.6c1-0.7,2.2-1.1,3.7-1.1c0.9,0,1.8,0.1,2.5,0.4
+
+                    C25.8,10,26.5,10.5,27.3,11.1z"></path>
+
+                    </g>
+
+                </svg>
+            </i>
+        <span>比赛</span>
+      </a>
+    </li>
+    <li>
+      <a href="#lw-jump-reward">
+        <i>
+                <svg class="icon sub-nav-icon" viewBox="0 0 32 32">
+
+                    <path d="M16.1,5.1h-4.6c0,0-2.1,0.1-2.1,2.1c0,0-0.9,9.2,5.4,13.4v2.4c0,0-4.4,1-4.4,3.9H16
+
+                C16,26.8,16.1,5,16.1,5.1z"></path>
+
+                    <path d="M10,9.5H5.6c0,0-1.5,0-1.5,2.5c0,0-0.1,6.3,9.5,7.3l-1-2.2c0,0-6.6-0.9-6.3-5.8H11L10,9.5z"></path>
+
+                    <path d="M16,5.1h4.6c0,0,2.1,0.1,2.1,2.1c0,0,0.9,9.2-5.4,13.4v2.4c0,0,4.4,1,4.4,3.9H16C16,26.8,16,5,16,5.1z"></path>
+
+                    <path d="M22.1,9.5h4.4c0,0,1.5,0,1.5,2.5c0,0,0.1,6.3-9.6,7.3l1-2.2c0,0,6.6-0.9,6.3-5.8h-4.7L22.1,9.5z"></path>
+
+                </svg>
+            </i>
+        <span>奖励</span>
+      </a>
+    </li>
+    <li>
+      <a href="#lw-tiao-last">
+        <i>
+                <svg class="icon sub-nav-icon" viewBox="0 0 32 32">
+
+                    <rect height="7" width="7" fill="#010101" y="12.2" x="12.8"></rect>
+
+                    <path d="M20.8,12.2h6l0.9,0.9v5.2l-1,1h-6l3.5-3.5C24.4,15.7,20.9,12.1,20.8,12.2z" fill="#010101"></path>
+
+                    <path d="M19.9,20.3v6L19,27.2h-5.2l-1-1v-6l3.5,3.5C16.4,23.8,20,20.3,19.9,20.3z" fill="#010101"></path>
+
+                    <path d="M12.9,11.2v-6l0.9-0.9H19l1,1v6l-3.5-3.5C16.4,7.6,12.8,11.1,12.9,11.2z" fill="#010101"></path>
+
+                    <path d="M11.8,19.2h-6l-0.9-0.9v-5.2l1-1h6l-3.5,3.5C8.3,15.7,11.8,19.2,11.8,19.2z" fill="#010101"></path>
+
+                </svg>
+            </i>
+        <span>游戏模式</span>
+      </a>
+    </li>
+  </ul>
+  <script>
+    var sub = document.getElementById("lw-sub-nav-menu");
+    var lis = sub.querySelectorAll("li");
+    for (var i = 0; i < lis.length; i++) {
+      lis[i].onmouseover = function() {
+        animate(this, {
+          left: 0
+        });
+      }
+      lis[i].onmouseout = function() {
+        animate(this, {
+          left: 76
+        });
+      }
+    }
+  </script>
+  <!-- 侧栏结束 -->
+  <!-- Hello lw 结束 -->
+  <a href="javascript:;" id="goTop">TOP</a>
+  <!-- 底部footer开始 -->
+  <footer>
+    <div class="footer">
+      <div class="t-top">
+        <a href="javascript:">
+          <span class="icon-1"></span>在线客服</a>
+        <a href="javascript:">
+          <span class="icon-2"></span>反馈</a>
+        <a href="javascript:">
+          <span class="icon-3"></span>加入我们</a>
+      </div>
+      <div class="t-center">
+        <a href="javascript:" class="logo-bz"></a>
+        <a href="javascript:" class="logo-ne"></a>
+        <div class="info">
+          <ul class="clearfix">
+            <li>
+              <a href="javascript:">隐私</a>|</li>
+            <li>
+              <a href="javascript:">法律条款</a>|</li>
+            <li>
+              <a href="javascript:">API</a>
+            </li>
+          </ul>
+          <p>
+            ©2018 暴雪娱乐有限公司版权所有 由上海网之易网络科技发展有限公司运营
+            <a href="javascript:">著作权侵权</a> |
+            <a href="javascript:">新广出审[2016]378号</a>
+          </p>
+          <p>
+            文网游进字[2016]0025号 |
+            <a href="javascript:">沪网文号〔2017〕9633-727号 </a> |
+            <a href="javascript:">增值电信业务经营许可证编号：沪B2－20080012</a>
+          </p>
+          <p>
+            互联网违法和不良信息举报电话：0571-28090163 沪公网安备 31011502022167号 |
+            <a href="javascript:">上海市网络游戏行业自律公约</a>
+          </p>
+          <p>
+            <img src="image/police.png" alt="">
+            <img src="image/zx110.png" alt="">
+            <img src="image/sgs-icon.png" alt="">
+            <img src="image/icon20120516.png" alt="">&nbsp; |&nbsp; 适龄提示：适合13岁及以上使用
+            <a href="javascript:">家长监护工程&gt;</a>
+          </p>
+        </div>
+      </div>
+      <div class="t-footer">
+        <p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。</p>
+        <p>健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 底部footer结束 -->
+
+  <script src="js/jQuery-3.3.1.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/animate.js"></script>
+  <!--LW播放视频开始-->
+  <script>
+    var vidPlay = document.getElementById("lw-vid-go");
+    var vidKeep = document.querySelector(".lw-vid-keep");
+    var vidYcang = document.querySelector(".lw-vid-keep");
+    //显示
+    vidPlay.addEventListener("click", function(e) {
+        vidKeep.style.display = "block";
+        window.onscroll = function() {
+          var y = window.pageYOffset;
+          vidKeep.style.top = y + "px";
+        }
+        e.stopPropagation(); //阻止冒泡
+      })
+      //隐藏
+    vidYcang.addEventListener("click", function(e) {
+      vidKeep.style.display = "none";
+    })
+  </script>
+  <!--LW播放视频结束-->
+  <!--LW JS左右上下动画开始 -->
+
+  <script src="js/scrollReveal.js"></script>
+  <script>
+    (function() {
+      window.scrollReveal = new scrollReveal({
+        reset: false,
+        move: '200px'
+      });
+    })();
+  </script>
+  <!--LW JS左右上下动画结束 -->
+</body>
+
+</html>

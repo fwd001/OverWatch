@@ -1,0 +1,201 @@
+
+/*主体区域开始*/
+ mainPart {
+  /*width:100%;*/
+  background: url(../images/bigBackground.jpg) center 0 no-repeat;
+  background-size: 100%;
+   height: 1115px;
+   display: block;
+}
+
+/*视频区域开始*/
+.videoBox {
+  position: absolute;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  overflow: hidden;
+  display: none;
+  background-color: rgba(0,0,0,.6);
+  left:0;
+}
+.videoPlace {
+  text-align: center;
+  width: 85%;
+  height: 85%;
+  margin: 62px auto;
+  /*border: 1px solid rgba(0,195,255,.1);*/
+  background: rgba(3,12,21,.98)
+
+}
+.videoPlace-title {
+  font-size: 2.8em;
+  padding-bottom: .2em;
+  color: #405275;
+  line-height: 1.5;
+}
+.videoBox .closeBtn {
+  position: absolute;
+  z-index: 99999;
+  top: 76px;
+  right: 125px;
+  display: block;
+  overflow: hidden;
+  width: 36px;
+  height: 36px;
+  transition: opacity .5s ease 0s;
+  text-indent: -999px;
+  opacity: .8;
+  background: url(../images/closeButton.png) 0 0 no-repeat;
+  background-size: contain;
+}
+.videoPlace-content {
+  height: 86%;
+  padding: 1em 0;
+  position: relative;
+}
+
+.content {
+  /*width: 1300px;*/
+  /* margin: 0 auto; */
+  padding-top: 140px;
+}
+.content h1 {
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  color: white;
+  margin-top:30px;
+}
+.content .player {
+  /*width: 920px;*/
+  width: 940px;
+  height: 530px;
+  border:3px solid #ccc;
+  border-radius: 5px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  background:  url(../images/videoBgc.jpg) center 0 no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  transition: all .5s;
+}
+.content .player:hover{
+  border:3px solid #fff;
+}
+
+.content .player_video:hover {
+  background: url(../images/videoHide.png) center 0 no-repeat;
+}
+.content .player_video {
+  background: url(../images/videoShow.png) center 0 no-repeat;
+}
+
+.content .player_video {
+  height: 140px;
+  width: 140px;
+  transition: all .5s;
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-top: -70px;
+  margin-left:-70px;
+}
+
+.content .player-introduce {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 10px 15px;
+  transition: background .2s;
+  background-color: rgba(3,20,26,.75);
+  color: #f0edf2;
+  text-align: center;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.content p {
+  width:800px;
+  height: 180px;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/*世界杯区域*/
+.cup {
+   height: 218px;
+   /*background-color: #3d67bb;*/
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background: url(../images/cup.jpg) center 0 no-repeat;
+  background-size: cover;
+ }
+.cup .img {
+  width: 200px;
+  height: 218px;
+  text-align: right;
+  float: left;
+  margin-left:300px;
+  /*overflow: hidden;*/
+}
+.cup-introduce {
+  width: 663px;
+  height: 218px;
+  float: left;
+  margin-left: 60px;
+}
+.cup-introduce h2 {
+  margin-top: 10px;
+  font-size: 30px;
+  color: white;
+}
+.cup-introduce p {
+  font-size:16px;
+  width: 640px;
+  height: 76px;
+  text-align: left;
+  line-height: 1.8;
+  color: #fff;
+}
+.cup-introduce .view {
+  width: 242px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: 25px 10px ;
+  border-radius: 5px;
+  background-color: #ff9c00;
+}
+.cup-introduce a {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+.cup-introduce a:hover {
+  color: #f8f8f8;
+}
+
+/*返回顶部区域*/
+#gotop {
+  width: 40px;
+  height: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255,255,255,.25);
+  color: #000;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 12px;
+  z-index: 501;
+  display: none;
+  cursor: pointer;
+}
+

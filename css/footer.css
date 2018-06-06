@@ -1,0 +1,100 @@
+/* footer开始 */
+footer {
+  background-color: #202020;
+  font-size: 12px;
+  position: relative;
+}
+.footer {
+  width: 1000px;
+  margin: 0 auto;
+  color: rgba(255,255,255,.5);
+  padding-bottom: 46px;
+}
+/* footer头部 */
+.footer .t-top {
+  padding-top: 40px;
+}
+.footer .t-top a {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  margin-right: 37px;
+  font-size: 14px;
+}
+.footer .t-top a span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  background: url(../image/fwd-sprite-24-blue.png) no-repeat ;
+  top : 6px;
+  margin-right: 10px;
+}
+.footer .t-top a .icon-1 {
+  background-position: -96px 0;
+}
+.footer .t-top a .icon-2 {
+  background-position: -144px -24px;
+}
+.footer .t-top a .icon-3 {
+  background-position: -24px -119px;
+}
+/* footer中部 */
+/* 中部左 */
+.footer .t-center {
+  padding: 50px 0px 20px 0;
+  border-bottom: 1px solid rgba(255,255,255,.15);
+  margin-bottom: 8px;
+}
+.footer .t-center a {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer .t-center .logo-bz {
+  background: url(../image/fwd-blizzard.png) no-repeat 0 5px;
+  width: 140px;
+  height: 80px;
+}.footer .t-center .logo-ne {
+  background: url(../image/fwd-logo_ne.png) no-repeat;
+  width: 125px;
+  height: 38px;
+  position: relative;
+  top: 39px;
+}
+/* 中部右 */
+.footer .t-center .info {
+  display: inline-block;
+  padding-left: 73px;
+}
+.footer .t-center .info ul {
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+.footer .t-center .info ul li {
+  float: left;
+}
+.footer .t-center .info ul li a{
+  color: #ccc;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.footer .t-center .info a {
+  color: rgba(255,255,255,.5)
+}
+.footer .t-center .info a:hover {
+  color: #fff;
+}
+.footer .t-center .info p {
+  line-height: 20px;
+  vertical-align: top;
+  text-indent: 10px;
+}
+.footer .t-center .info p:last-child {
+  padding: 8px 0;
+}
+
+/* footer底部 */
+.t-footer {
+  text-align: center;
+}

@@ -1,0 +1,235 @@
+body {
+  background: url(../image/heroes-img/fwd-ow-heroes-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+/* 英雄选择界面开始 */
+
+.heroes-selector {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 128px;
+}
+
+.heroes-selector .container {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.heroes-selector .container>div {
+  padding: 0 2.2em;
+  margin: 50px 0;
+  overflow: hidden;
+}
+
+.heroes-selector .container .heroes-title h2 {
+  text-shadow: none;
+  margin: 0;
+  color: #405275;
+}
+
+.heroes-selector .container .heroes-title p {
+  text-indent: 0;
+  padding: 0;
+  margin: .5em 0 0;
+  font-size: 2.8em;
+}
+
+
+/* 英雄区域 */
+
+.heroes-selector .heroes-index {
+  margin: 50px 0;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation {
+  display: table;
+  width: 100%;
+  margin-bottom: 50px;
+  border-collapse: separate;
+  text-align: center;
+  border-spacing: 1px;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation ul {
+  display: table-row;
+  vertical-align: middle;
+  /* width: 100%; */
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation li {
+  display: table-cell;
+  max-width: 162px;
+  width: 162px;
+  background-color: rgba(255, 255, 255, .3);
+  ;
+  transition: all 200ms;
+  border-radius: 2px;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation li.current {
+  background-color: #fff;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation li a.current {
+  opacity: 1;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation li:hover {
+  background-color: #fff;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation li:hover a {
+  opacity: 1;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation li a {
+  display: block;
+  padding: 9px 10px;
+  width: 100%;
+  color: #1a325e;
+  transition: inherit;
+  opacity: .7;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation li a span {
+  display: inline-block;
+  font-size: 1.6em;
+  line-height: 1.6em;
+}
+
+.heroes-selector .heroes-index .heroes-selector-navigation li a svg {
+  display: inline-block;
+  height: 18px;
+  margin-right: 9px;
+  margin-bottom: 3px;
+  max-width: 50px;
+  vertical-align: middle;
+  fill: #1a325e;
+}
+
+
+/* 英雄展示界面开始 */
+.heroes-selector .heroes-index .heroes-selector-container {
+  position: relative;
+  height: 1102.25px;
+  transition: height 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13.8%;
+  margin-right: .5%;
+  visibility: visible;
+  margin-bottom: .5%;
+  transition: transform 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item:nth-child(7n) {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+
+/* 鼠标划入变换开始 */
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item:hover {
+  z-index: 10;
+}
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item:hover a {
+  transform: scale(1.15);
+  border-color: #fff;
+}
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item:hover a>span {
+  background-color: #fff;
+  color: #1a325e;
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item:hover a .class-icon {
+  fill: #1a325e;
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item:hover a .item-title {
+  color: #1a325e;
+}
+/* 鼠标划入变换结束 */
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item img {
+  width: 100%;
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item .hero-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7em;
+  background: rgba(40, 53, 79, .9);
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  text-align: center;
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item a>div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#b07a7a00, #50c0f130, #50c0f1);
+  display: none;
+}
+/* 蓝色遮罩 */
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item a .blueMask {
+  display: block;
+}
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item a .current {
+  display: block;
+  filter: grayscale(100%);
+  background: rgba(255, 255, 255, 0.27);
+  z-index: 1;
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item a {
+  display: block;
+  border: 2px solid rgba(255, 255, 255, .4);
+  border-radius: 2px;
+  position: relative;
+  
+  background: url(../image/heroes-img/fwd-hero-portrait-detailed-bg.jpg) no-repeat;
+  background-size: cover;
+  transition: all 200ms;
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item a .class-icon {
+  position: absolute;
+  top: .8em;
+  left: .8em;
+  fill: #fff;
+  transition: all 100ms;
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item a .class-icon .icon {
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.heroes-selector .heroes-index .heroes-selector-container .heroes-item a .item-title {
+  font-size: 3.2em;
+  font-family: "Big Noodle Too", "microsoft yahei", impact, sans-serif;
+  font-style: italic;
+  color: #d0d0dc;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  transition: all 100ms;
+}
+/* 英雄展示界面结束 */
+
+/* 英雄选择界面结束 */
+/* 小彩蛋 */
+.varyHappy {
+  position: absolute;
+  top: 900px;
+  left: 17px;
+}
